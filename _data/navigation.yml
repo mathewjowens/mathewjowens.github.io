@@ -7,10 +7,13 @@
 main:
   - title: "Publications"
     url: /publications/papers.html   
-
-  - title: "Solar-wind forecast"
-    url: https://research.reading.ac.uk/met-spate/huxt-forecast/  
     
   - title: "CV"
     url: /files/Owens_CV_LongForm.pdf
+
+  - title: "Solar-wind forecast"
+    url: https://research.reading.ac.uk/met-spate/huxt-forecast/  
+
+  - title: "SPATE GitHub"
+    url: "https://github.com/University-of-Reading-Space-Science"
     
