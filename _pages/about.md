@@ -55,7 +55,7 @@ Old news is archived [here](/_pages/oldnews.html)
 * Dr Allan Macneil. Analysing solar wind electron observations of the inner heliosphere.
 * [Dr Matthew Lang](https://scholar.google.co.uk/citations?user=rG9RdRoAAAAJ&hl=en). Developing data assimilation techniques for the solar wind.
 * Austin Jones. Former PhD student, studying the link between thunderstorm activity and the ionosphere. Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/).
-* Dr Teo Bloch. Former PhD student, applying machine learning to space physics problems. Co-supervised with [Prof Clare Watt](https://www.northumbria.ac.uk/about-us/our-staff/w/clare-watt/).
+* [Dr Teo Bloch](https://www.linkedin.com/in/t%C3%A9o-bloch-891362149). Former PhD student, applying machine learning to space physics problems. Co-supervised with [Prof Clare Watt](https://www.northumbria.ac.uk/about-us/our-staff/w/clare-watt/).
 * Dr Carl Haines. Former PhD student, characterising geomagnetic disturbances. In conjunction with EDF Energy.
 * [Dr Bingkun Yu](https://scholar.google.com.sg/citations?user=gbsKteQAAAAJ&hl=zh-CN). Working on lightning effects on the ionosphere.
 * [Dr Nachiketa Chakraborty](https://www.reading.ac.uk/computer-science/staff/dr-nachiketa-chakraborty). Causal inference problems in space weather science.
@@ -63,7 +63,7 @@ Old news is archived [here](/_pages/oldnews.html)
 * Dr Maria Valdivieso da Costa. Digitising and processing historical thunder observations.
 * [Dr Sarah Bentley](https://www.northumbria.ac.uk/about-us/our-staff/b/sarah-bentley/). Former PhD student, working on solar wind driving of magnetospheric wave power and its effects on the radiation belts. Co-supervised with [Prof Clare Watt](https://www.northumbria.ac.uk/about-us/our-staff/w/clare-watt/).
 * Dr Mai Mai Lam. Space-troposphere coupling and space influences on the global atmospheric electric circuit.
-* Dr Adam El-Said.  Testing the "Enlil" solar wind model initialised with Heliospheric Imager data.
+* [Dr Adam El-Said](https://scholar.google.com/citations?user=SiHYU20AAAAJ&hl=en).  Testing the "Enlil" solar wind model initialised with Heliospheric Imager data.
 * Dr Kim Tucker-Hood. Former PhD student, Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/) and Prof David Jackson through a Met Office CASE award. Working on solar storm forecasting from heliospheric imager data.
 * [Dr Simon Thomas](https://scholar.google.co.uk/citations?user=BMKKYicAAAAJ&hl=en). Former PhD student, analysing ground-based neutron monitor data.
 
