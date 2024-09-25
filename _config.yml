@@ -11,8 +11,8 @@ locale                   : "en-UK"
 title                    : "Mathew Owens, homepage"
 title_separator          : "-"
 name                     : &name "Mathew Owens"
-description              : &description "personal description"
-url                      : https://mathewjowens.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Space physicist"
+url                      : "https://mathewjowens.github.io" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mathewjowens/mathewjowens.github.io"
 
@@ -21,13 +21,13 @@ repository               : "mathewjowens/mathewjowens.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mathew Owens"
-  pronouns         : "he/him"  
+  pronouns         : #  
   bio              : "Professor of Space Physics"
-  location         :  "Reading, UK"
+  location         : #
   employer         : "University of Reading"
-  uri              : # URL
+  uri              : "https://research.reading.ac.uk/meteorology/people/mathew-owens/"
   email            : "m.j.owens@reading.ac.uk" 
 
   # Academic websites
