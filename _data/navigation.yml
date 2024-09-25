@@ -6,14 +6,11 @@
 
 main:
   - title: "Publications"
-    url: /publications/papers.html
+    url: /publications/papers.html   
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Solar-wind forecast"
+    url: https://research.reading.ac.uk/met-spate/huxt-forecast/  
     
   - title: "CV"
-    url: /cv/
+    url: /files/Owens_CV_LongForm.pdf
     
