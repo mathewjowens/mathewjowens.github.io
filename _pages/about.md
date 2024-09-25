@@ -5,11 +5,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Professor of Space Physics in the [Department of Meteorology](https://research.reading.ac.uk/meteorology/ "Department of Meteorology") and a member of the [Space and Atmospheric Electricity Group (SPATE)](https://research.reading.ac.uk/met-spate/).
-
-Links to a (probably updated) publication list and a (probably outdated) CV can be found above. You'll also find links to our group's Github code repository and our space-weather forecast.
-
-## Primary esearch interests
+I am a Professor of Space Physics in the [Department of Meteorology](https://research.reading.ac.uk/meteorology/ "Department of Meteorology") and a member of the [Space and Atmospheric Electricity Group (SPATE)](https://research.reading.ac.uk/met-spate/). I am currently an associate editor for [Solar Physics](https://link.springer.com/journal/11207).
+My primary research interests are:
 
  * The heliospheric magnetic field
  * Large-scale solar wind  structure
