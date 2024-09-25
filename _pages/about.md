@@ -58,7 +58,7 @@ Old news is archived [here](/_pages/oldnews.html)
 * Dr Teo Bloch. Former PhD student, applying machine learning to space physics problems. Co-supervised with Prof Clare Watt.
 * Dr Carl Haines. Former PhD student, characterising geomagnetic disturbances. In conjunction with EDF Energy.
 * Dr Bingkun Yu. Working on lightning effects on the ionosphere.
-* Dr Nachiketa Chakraborty. Causal inference problems in space weather science.
+* [Dr Nachiketa Chakraborty](https://www.reading.ac.uk/computer-science/staff/dr-nachiketa-chakraborty). Causal inference problems in space weather science.
 * Dr Shannon Jones. Former PhD student, working on coronal mass ejections using Heliospheric Imager observations. Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/).
 * Dr Maria Valdivieso da Costa. Digitising and processing historical thunder observations.
 * Dr Sarah Bentley. Former PhD student, working on solar wind driving of magnetospheric wave power and its effects on the radiation belts. Co-supervised with Prof Clare Watt.
