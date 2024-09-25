@@ -25,7 +25,7 @@ author:
   name             : "Mathew Owens"
   pronouns         : # example: "she/her"  
   bio              : "Professor of Space Physics"
-  location         : "UK"
+#  location         :  "UK"
   employer         : "University of Reading"
   uri              : # URL
   email            : "m.j.owens@reading.ac.uk" 
