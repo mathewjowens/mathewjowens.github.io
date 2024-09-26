@@ -6,7 +6,7 @@
 
 main:
   - title: "Publications"
-    url: /publications/papers.html   
+    url: /publications/papers.mht  
     
   - title: "CV"
     url: /files/Owens_CV_LongForm.pdf
