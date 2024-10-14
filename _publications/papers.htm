@@ -10,16 +10,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
 <link rel=File-List href="papers_files/filelist.xml">
-<!--[if gte mso 9]><xml>
- <o:OfficeDocumentSettings>
-  <o:RemovePersonalInformation/>
-  <o:RemoveDateAndTime/>
- </o:OfficeDocumentSettings>
-</xml><![endif]-->
 <link rel=themeData href="papers_files/themedata.thmx">
 <link rel=colorSchemeMapping href="papers_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -51,7 +48,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="371">
+  LatentStyleCount="376">
   <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
@@ -615,6 +612,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
    Name="List Table 6 Colorful Accent 6"/>
   <w:LsdException Locked="false" Priority="52"
    Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
  </w:LatentStyles>
 </xml><![endif]-->
 <style>
@@ -623,17 +630,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+	mso-font-signature:-469750017 -1040178053 9 0 511 0;}
 @font-face
 	{font-family:Verdana;
 	panose-1:2 11 6 4 3 5 4 4 2 4;
@@ -679,7 +686,6 @@ h1
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:0cm;
-	margin-bottom:.0001pt;
 	line-height:115%;
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
@@ -699,7 +705,6 @@ h2
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:0cm;
-	margin-bottom:.0001pt;
 	line-height:115%;
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
@@ -714,7 +719,6 @@ p.MsoHeader, li.MsoHeader, div.MsoHeader
 	{mso-style-priority:99;
 	mso-style-link:"Header Char";
 	margin:0cm;
-	margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	tab-stops:center 225.65pt right 451.3pt;
 	font-size:12.0pt;
@@ -725,7 +729,6 @@ p.MsoFooter, li.MsoFooter, div.MsoFooter
 	{mso-style-priority:99;
 	mso-style-link:"Footer Char";
 	margin:0cm;
-	margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	tab-stops:center 225.65pt right 451.3pt;
 	font-size:12.0pt;
@@ -750,8 +753,7 @@ p.MsoTitle, li.MsoTitle, div.MsoTitle
 	color:#17365D;
 	letter-spacing:.25pt;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
@@ -832,12 +834,40 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
 span.TitleChar
 	{mso-style-name:"Title Char";
 	mso-style-priority:10;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
-	mso-style-link:Title;
+	mso-style-link:msotitlecxspfirst;
 	font-family:"Cambria",serif;
 	mso-ascii-font-family:Cambria;
 	mso-hansi-font-family:Cambria;
@@ -848,7 +878,6 @@ p.msotitlecxspfirst, li.msotitlecxspfirst, div.msotitlecxspfirst
 	mso-style-unhide:no;
 	mso-style-link:"Title Char";
 	margin:0cm;
-	margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	font-size:26.0pt;
 	font-family:"Cambria",serif;
@@ -861,7 +890,6 @@ p.msotitlecxspmiddle, li.msotitlecxspmiddle, div.msotitlecxspmiddle
 	{mso-style-name:msotitlecxspmiddle;
 	mso-style-unhide:no;
 	margin:0cm;
-	margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	font-size:26.0pt;
 	font-family:"Cambria",serif;
@@ -892,7 +920,6 @@ p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphc
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:36.0pt;
-	margin-bottom:.0001pt;
 	line-height:115%;
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
@@ -906,7 +933,6 @@ p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagrap
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:36.0pt;
-	margin-bottom:.0001pt;
 	line-height:115%;
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
@@ -942,7 +968,6 @@ p.Title1, li.Title1, div.Title1
 	{mso-style-name:Title1;
 	mso-style-unhide:no;
 	margin:0cm;
-	margin-bottom:.0001pt;
 	line-height:150%;
 	mso-pagination:widow-orphan;
 	punctuation-wrap:simple;
@@ -1013,43 +1038,23 @@ span.UnresolvedMention8
 	mso-style-unhide:no;
 	color:#605E5C;
 	background:#E1DFDD;}
-span.UnresolvedMention
-	{mso-style-name:"Unresolved Mention";
-	mso-style-unhide:no;
-	color:#605E5C;
-	background:#E1DFDD;}
-span.HeaderChar
-	{mso-style-name:"Header Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Header;
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-span.FooterChar
-	{mso-style-name:"Footer Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Footer;
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
 	font-size:10.0pt;
 	mso-ansi-font-size:10.0pt;
 	mso-bidi-font-size:10.0pt;
-	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-hansi-font-family:Calibri;
-	mso-bidi-font-family:Calibri;}
+	mso-bidi-font-family:Calibri;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
  /* Page Definitions */
  @page
 	{mso-footnote-separator:url("papers_files/header.htm") fs;
@@ -1084,20 +1089,20 @@ div.WordSection1
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
 	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="2049"/>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
+  <o:idmap v:ext="edit" data="2"/>
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=EN-GB link=blue vlink=purple style='tab-interval:36.0pt'>
+<body lang=EN-GB link=blue vlink=purple style='tab-interval:36.0pt;word-wrap:
+break-word'>
 
 <div class=WordSection1>
 
@@ -1131,8 +1136,9 @@ color:#002060'>Under review</span></p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>237.<span style='font-size:7.0pt;
-line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span>The
-May 2024 Event in the Context of Auroral Activity over the past 375 years<br>
+line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
+href="papers_files/MNRAS_Lockwood_aurora%206.pdf">The May 2024 Event in the
+Context of Auroral Activity over the past 375 years</a><br>
 M. Lockwood, <b>M.J. Owens</b>, W. Brown and M. Vazquez, submitted to <i>M.N.
 Roy. Astro. Soc</i>., 2024</p>
 
@@ -1140,8 +1146,8 @@ Roy. Astro. Soc</i>., 2024</p>
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>236.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span>Applying
 calibration techniques to a MAS/HUXt ensemble solar wind forecast<br>
-N. Edward-Inatimi, <b>M.J. Owens</b>, L.A. Barnard, H. Turner and M. Lang,
-submitted to <i>Space Weather</i>, 2024 </p>
+N. Edward-<span class=SpellE>Inatimi</span>, <b>M.J. Owens</b>, L.A. Barnard,
+H. Turner and M. Lang, submitted to <i>Space Weather</i>, 2024 </p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>235.<span style='font-size:7.0pt;
@@ -1171,8 +1177,9 @@ mso-ansi-language:X-NONE'>2024</span><span style='mso-fareast-font-family:"Times
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/1538-4357/ad5155">Coronal
 Models and Detection of Open Magnetic Flux</a><br>
-E. Asvestari et al. (inc <b>M.J. Owens</b>), <i>Astrophys. J</i>., 971, 45,
-doi: 10.3847/1538-4357/ad5155, 2024</p>
+E. <span class=SpellE>Asvestari</span> et al. (<span class=SpellE>inc</span> <b>M.J.
+Owens</b>), <span class=SpellE><i>Astrophys</i></span><i>. J</i>., 971, 45, <span
+class=SpellE>doi</span>: 10.3847/1538-4357/ad5155, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>233.<span style='font-size:7.0pt;
@@ -1180,17 +1187,19 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://iopscience.iop.org/article/10.3847/1538-4357/ad50cf">Solar Wind
 Interactions with Comet C/2021 A1 Using STEREO HI and a Data-assimilative Solar
 Wind Model</a><br>
-S. Watson, C. Scott, <b>M. Owens</b> and L. Barnard, <i>Astrophys</i>. <i>J.</i>,
-970, 101, doi: 10.3847/1538-4357/ad50cf, 2024</p>
+S. Watson, C. Scott, <b>M. Owens</b> and L. Barnard, <span class=SpellE><i>Astrophys</i></span>.
+<i>J.</i>, 970, 101, <span class=SpellE>doi</span>: 10.3847/1538-4357/ad50cf,
+2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>232.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JA032613">A
-Multi-Model Ensemble System for the outer Heliosphere (MMESH): Solar Wind Conditions
-near Jupiter</a><br>
+Multi-Model Ensemble System for the outer Heliosphere (MMESH): Solar Wind
+Conditions near Jupiter</a><br>
 M.J. Rutala, C.M. Jackman, <b>M.J. Owens</b>, C. Tao, A.R. Fogg, S.A. Murray, <i>J.
-Geophys. Res.</i>, 129, e2024JA032613doi:10.1029/2024JA032613, 2024</p>
+<span class=SpellE>Geophys</span>. Res.</i>, 129,
+e2024JA032613doi:10.1029/2024JA032613, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>231.<span style='font-size:7.0pt;
@@ -1198,8 +1207,9 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://link.springer.com/article/10.1007/s11207-024-02316-9">A
 Geomagnetic Estimate of Heliospheric Modulation Potential Over the Last 175
 Years</a><br>
-<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, I. Usoskin, E. Asvestari, R.
-Muscheler, <i>Solar Phys</i>., 299, 84, doi:10.1007/s11207-024-02316-9, 2024</p>
+<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, I. Usoskin, E. <span
+class=SpellE>Asvestari</span>, R. <span class=SpellE>Muscheler</span>, <i>Solar
+Phys</i>., 299, 84, doi:10.1007/s11207-024-02316-9, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>230.<span style='font-size:7.0pt;
@@ -1212,20 +1222,22 @@ doi:10.1038/s41550-024-02278-9, 2024</p>
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>229.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
-href="https://www.sciencedirect.com/science/article/pii/S0273117724000292?via%3Dihub">Heliophysics
-Great Observatories and international cooperation in Heliophysics: An
-orchestrated framework for scientific advancement and discovery</a><br>
-Kepko et al. (inc. <b>M. Owens</b>), <i>Adv. Space Res</i>., 73, 10, 5383-5405,
-doi:10.1016/j.asr.2024.01.011, 2024</p>
+href="https://www.sciencedirect.com/science/article/pii/S0273117724000292?via%3Dihub"><span
+class=SpellE>Heliophysics</span> Great Observatories and international
+cooperation in <span class=SpellE>Heliophysics</span>: An orchestrated
+framework for scientific advancement and discovery</a><br>
+<span class=SpellE>Kepko</span> et al. (inc. <b>M. Owens</b>), <i>Adv. Space
+Res</i>., 73, 10, 5383-5405, doi:10.1016/j.asr.2024.01.011, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>228.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.aanda.org/articles/aa/full_html/2024/04/aa47747-23/aa47747-23.html">Tracking
-solar radio bursts using multilateration with a novel Bayesian approach</a><br>
+solar radio bursts using <span class=SpellE>multilateration</span> with a novel
+Bayesian approach</a><br>
 L.A. Canizares, S.T. Badman, S.A. Maloney, <b>M.J. Owens</b>, D.M. Weigt, E.P.
-Carley and P.T. Gallagher, <i>Astron. &amp; Astrophys</i>., A182, 12,
-doi:10.1051/0004-6361/202347747, 2023</p>
+Carley and P.T. Gallagher, <i>Astron. &amp; <span class=SpellE>Astrophys</span></i>.,
+A182, 12, doi:10.1051/0004-6361/202347747, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>227.<span style='font-size:7.0pt;
@@ -1234,7 +1246,7 @@ href="https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stad3874/
 for Graphical Records for a Total Solar Eclipse in 1230 May: A Possible
 Reference for the &#8220;Medieval Grand Maximum&#8221;</a><br>
 H. Hayakawa, K. Murata, <b>M.J. Owens</b> and M. Lockwood, <i>M.N. Roy. Astro.
-Soc</i>., 530, 3, doi:10.1093/mnras/stad3874, 2024</p>
+Soc</i>., 530, 3, doi:10.1093/<span class=SpellE>mnras</span>/stad3874, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>226.<span style='font-size:7.0pt;
@@ -1243,9 +1255,10 @@ href="https://iopscience.iop.org/article/10.3847/1538-4357/ad2b69">On the
 Origin of the sudden Heliospheric Open Magnetic Flux Enhancement during the
 2014 Pole Reversal</a><br>
 S.G. Heinemann, <b>M.J. Owens</b>, M. Temmer, J.A. Turtle, C.N. Arge, C.
-Henney, J. Pomoell, A. Avestari, J.A. Linker, C. Downs, R. Caplan, S.J.
-Hofmeister, C. Scolini, R.F. Pinto and M.S. Madjarska, <i>Astrophys. J</i>.,
-965, 151, doi:10.3847/1538-4357/ad2b69, 2023</p>
+Henney, J. <span class=SpellE>Pomoell</span>, A. <span class=SpellE>Avestari</span>,
+J.A. Linker, C. Downs, R. Caplan, S.J. Hofmeister, C. <span class=SpellE>Scolini</span>,
+R.F. Pinto and M.S. <span class=SpellE>Madjarska</span>, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 965, 151, doi:10.3847/1538-4357/ad2b69, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>225.<span style='font-size:7.0pt;
@@ -1261,8 +1274,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://iopscience.iop.org/article/10.3847/1538-4357/ad1506">Constraints
 on Solar Wind Density and Velocity Based On Coronal Tomography and Parker Solar
 Probe Measurements</a><br>
-K.A. Bunting, L. Barnard, <b>M.J. Owens</b> and H. Morgan, <i>Astrophys. J</i>.,
-961, 64, doi:10.3847/1538-4357/ad1506, 2024</p>
+K.A. Bunting, L. Barnard, <b>M.J. Owens</b> and H. Morgan, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 961, 64, doi:10.3847/1538-4357/ad1506, 2024</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>223.<span style='font-size:7.0pt;
@@ -1291,8 +1304,8 @@ N. Chakraborty, <b>M.J. Owens</b>, H. Turner and M. Lang, <i>Solar Phys</i>.,
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-023-02193-8">Annual
 variations in the near-Earth solar wind</a><br>
-<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, S. Yardley, H. Hietala, A.
-LaMoury and L. Vuorinen, <i>Solar Phys</i>., 298, 111,
+<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, S. Yardley, H. Hietala, A. <span
+class=SpellE>LaMoury</span> and L. Vuorinen, <i>Solar Phys</i>., 298, 111,
 doi:10.1007/s11207-023-02193-8, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
@@ -1302,8 +1315,9 @@ href="https://www.sciencedirect.com/science/article/pii/S0273117723006828?via%3D
 solar variability: ISWAT S1 cluster review for COSPAR Space Weather Roadmap</a>
 <br>
 A.A. Pevtsov, D. Nandy, I. Usoskin, A.A. Pevtsov, C. Corti, L. Lef&egrave;vre, <b>M.
-Owens</b>, G. Li, N. Krivova, C. Saha, B. Perri, A.S. Brun, A. Strugarek, M.A.
-Dayeh, Y.A. Nagovitsyn, R. Erd&eacute;lyi, <i>Adv. Space Res</i>.,
+Owens</b>, G. Li, N. Krivova, C. Saha, B. Perri, A.S. Brun, A. <span
+class=SpellE>Strugarek</span>, M.A. <span class=SpellE>Dayeh</span>, Y.A. <span
+class=SpellE>Nagovitsyn</span>, R. Erd&eacute;lyi, <i>Adv. Space Res</i>.,
 doi:10.1016/j.asr.2023.08.034, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
@@ -1311,11 +1325,11 @@ doi:10.1016/j.asr.2023.08.034, 2023</p>
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://baas.aas.org/pub/2023n3i287/release/1?readingCollection=1fe5322b">Exploring
 the Solar Poles: The Last Great Frontier of the Sun</a><br>
-D. Nandy, D. Banerjee, P. Bhowmik, A S. Brun, R.H. Cameron, S.E. Gibson, S.
-Hanasoge, L. Harra, D.M. Hassler, R. Jain, J. Jiang, L. Jouve, D.H. Mackay,
-S.S. Mahajan, C.H. Mandrini, <b>M. Owens</b>, S. Pal, R.F. Pinto, C. Saha, X.
-Sun, D. Tripathi, and I.G. Usoskin, <i>Bulletin of the AAS</i>, doi:10.3847/25c2cfeb.1160b0ef,
-2023</p>
+D. Nandy, D. Banerjee, P. Bhowmik, A S. Brun, R.H. Cameron, S.E. Gibson, S. <span
+class=SpellE>Hanasoge</span>, L. Harra, D.M. Hassler, R. Jain, J. Jiang, L.
+Jouve, D.H. Mackay, S.S. Mahajan, C.H. <span class=SpellE>Mandrini</span>, <b>M.
+Owens</b>, S. Pal, R.F. Pinto, C. Saha, X. Sun, D. Tripathi, and I.G. Usoskin, <i>Bulletin
+of the AAS</i>, doi:10.3847/25c2cfeb.1160b0ef, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>218.<span style='font-size:7.0pt;
@@ -1323,8 +1337,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://iopscience.iop.org/article/10.3847/1538-4357/acdcf8">Tianwen-1
 and MAVEN observations of the response of Mars to an interplanetary coronal
 mass ejection</a><br>
-B. Yu, Y. Chi, <b>M.J. Owens</b>, et al., <i>Astrophys. J.,</i> 953, 105,
-doi:10.3847/1538-4357/acdcf8, 2023</p>
+B. Yu, Y. Chi, <b>M.J. Owens</b>, et al., <span class=SpellE><i>Astrophys</i></span><i>.
+J.,</i> 953, 105, doi:10.3847/1538-4357/acdcf8, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>217.<span style='font-size:7.0pt;
@@ -1332,26 +1346,28 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://www.sciencedirect.com/science/article/pii/S0273117723005239">CME
 Propagation Through the Heliosphere: Status and Future of Observations and
 Model Development</a><br>
-M. Temmer et al. (inc <b>M.J. Owens</b>), <i>Adv. Space Res</i>.,
-doi:10.1016/j.asr.2023.07.003, 2023</p>
+M. Temmer et al. (<span class=SpellE>inc</span> <b>M.J. Owens</b>), <i>Adv.
+Space Res</i>., doi:10.1016/j.asr.2023.07.003, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>216.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/1538-4365/acd24b">Slow Solar
 Wind Connection Science during Solar Orbiter's First Close Perihelion Passage</a><br>
-S. Yardley et al. (inc <b>M.J. Owens</b>), <i>Astrophys. J. Supp</i>., 267, 11,
+S. Yardley et al. (<span class=SpellE>inc</span> <b>M.J. Owens</b>), <span
+class=SpellE><i>Astrophys</i></span><i>. J. Supp</i>., 267, 11,
 doi:10.3847/1538-4365/acd24b, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>215.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/2041-8213/acd7e7">The Dynamic
-Evolution of Mulitpoint Interplanetary Coronal Mass Ejections Observed with
-BepiColumbo, Tianwen-1 and MAVEN</a><br>
+Evolution of <span class=SpellE>Mulitpoint</span> Interplanetary Coronal Mass
+Ejections Observed with <span class=SpellE>BepiColumbo</span>, Tianwen-1 and
+MAVEN</a><br>
 Y. Chi, C. Shen, J. Lu, Z. Zhong, <b>M. Owens</b>, C. Scott, L. Barnard, B. Yu,
-D. Heyner and H.-U. Auster, <i>Astrophys. J. Lett</i>., 951, L14,
-doi:10.3847/2041-8213/acd7e7, 2023</p>
+D. <span class=SpellE>Heyner</span> and H.-U. Auster, <span class=SpellE><i>Astrophys</i></span><i>.
+J. Lett</i>., 951, L14, doi:10.3847/2041-8213/acd7e7, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>214.<span style='font-size:7.0pt;
@@ -1387,9 +1403,10 @@ Jones, <i>Space Weather</i>, 21, e2022SW003289, doi:10.1029/2022SW003289, 2023</
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA031177?af=R">Universal
 Time Variations in the Magnetosphere and the Effect of CME Arrival Time:
-Analysis of the February 2022 Event that Led to the Loss of Starlink Satellites</a><br>
-M. Lockwood, <b>M.J. Owens</b> and L. Barnard, <i>J. Geophys. Res.</i>,
-doi:10.1029/2022JA03117, 2023</p>
+Analysis of the February 2022 Event that Led to the Loss of <span class=SpellE>Starlink</span>
+Satellites</a><br>
+M. Lockwood, <b>M.J. Owens</b> and L. Barnard, <i>J. <span class=SpellE>Geophys</span>.
+Res.</i>, doi:10.1029/2022JA03117, 2023</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>210.<span style='font-size:7.0pt;
@@ -1409,8 +1426,8 @@ href="https://www.sciencedirect.com/science/article/pii/S0019103522003153">Fine&
 Structure in Cometary Dust Tails II: Further Evidence for a Solar Wind
 Influence on Cometary Dust Dynamics from the Analysis of Striae in Comet C/2011
 L4 Pan-STARRS</a><br>
-O. Price, G.H. Jones, K. Battams and <b>M.J. Owens</b>, <i>Icarus</i>, 115218,
-doi:10.1016/j.icarus.2022.115218, 2023</p>
+O. Price, G.H. Jones, K. <span class=SpellE>Battams</span> and <b>M.J. Owens</b>,
+<i>Icarus</i>, 115218, doi:10.1016/j.icarus.2022.115218, 2023</p>
 
 <h2><span lang=EN-US style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:EN-US'>2022</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -1420,17 +1437,17 @@ mso-ansi-language:EN-US'>2022</span><span style='mso-fareast-font-family:"Times 
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://royalsocietypublishing.org/doi/10.1098/rspa.2022.0497">Modelling
 cosmic radiation events in the tree-ring radiocarbon record</a><br>
-Q. Zhang, U. Sharma, J. Dennis, A. Scifo, M. Kuitems, M.W. Dee, <b>M.J. Owens</b>
-and B.J.S. Pope, <i>Proc. A Roy. Soc</i>., 478, 20220497,
-doi:10.1098/rspa.2022.0497, 2022</p>
+Q. Zhang, U. Sharma, J. Dennis, A. Scifo, M. <span class=SpellE>Kuitems</span>,
+M.W. Dee, <b>M.J. Owens</b> and B.J.S. Pope, <i>Proc. A Roy. Soc</i>., 478,
+20220497, doi:10.1098/rspa.2022.0497, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>207.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.frontiersin.org/articles/10.3389/fphy.2022.1005621/full">HUXt
 - A computationally efficient reduced physics solar wind model</a><br>
-L. Barnard and <b>M. Owens</b>, <i>Front. Astron. Space Sci.</i>,&nbsp; 10,
-doi:10.3389/fphy.2022.1005621, 2022</p>
+L. Barnard and <b>M. Owens</b>, <i>Front. Astron. Space Sci.</i><span
+class=GramE>,&nbsp; 10</span>, doi:10.3389/fphy.2022.1005621, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>206.<span style='font-size:7.0pt;
@@ -1438,8 +1455,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://www.frontiersin.org/articles/10.3389/fspas.2022.1011839/full">UK
 Magnetosphere, Ionosphere &amp; Solar-Terrestrial (MIST) Awards Taskforce: A
 Perspective</a><br>
-M.T. Walach, O. Agiwal, O. Allanson, <b>M.J. Owens</b>, I.J. Rae, J.K. Sandhu
-and A. Smith, <i>Front. Astron. Space Sci.</i>, 9,
+M.T. Walach, O. <span class=SpellE>Agiwal</span>, O. Allanson, <b>M.J. Owens</b>,
+I.J. Rae, J.K. Sandhu and A. Smith, <i>Front. Astron. Space Sci.</i>, 9,
 doi:10.3389/fspas.2022.1011839, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
@@ -1467,8 +1484,9 @@ Y. Chi, <i>Front. Astron. Space Sci.</i>, 9, doi:10.3389/fspas.2022.960775,
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-022-02037-x">Solar
 Energetic Particle &#8220;Ground-level Enhancements&#8221; and the Solar Cycle</a><br>
-<b>M.J. Owens</b>, L.A. Barnard, B. Pope, M. Lockwood, I. Usoskin, E.
-Asvestari, <i>Solar Phys</i>., 297, 105, doi:10.1007/s11207-022-02037-x, 2022</p>
+<b>M.J. Owens</b>, L.A. Barnard, B. Pope, M. Lockwood, I. Usoskin, E. <span
+class=SpellE>Asvestari</span>, <i>Solar Phys</i>., 297, 105,
+doi:10.1007/s11207-022-02037-x, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>202.<span style='font-size:7.0pt;
@@ -1500,16 +1518,16 @@ Phys.</i>, 297:83, doi:10.1007/s11207-022-02006-4, 2022</p>
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.sciencedirect.com/science/article/pii/S0273117722004057">Unifying
 the Validation of Large-Scale Solar Wind Models</a><br>
-M.A. Reiss et al (inc <b>M.J. Owens</b>), <i>Adv. Space Res</i>.,
-doi:10.1016/j.asr.2022.05.026, 2022</p>
+M.A. Reiss et al (<span class=SpellE>inc</span> <b>M.J. Owens</b>), <i>Adv.
+Space Res</i>., doi:10.1016/j.asr.2022.05.026, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>198.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-022-02004-6">Estimating
 the open solar flux from in situ measurements</a><br>
-A.M. Frost, <b>M.J. Owens,</b> A. Macneil and M. Lockwood, <i>Sol. Phys</i>.,
-297:82, doi:10.1007/s11207-022-02004-6,&nbsp; 2022</p>
+A.M. Frost, <b>M.J. Owens,</b> A. <span class=SpellE>Macneil</span> and M.
+Lockwood, <i>Sol. Phys</i>., 297:82, doi:10.1007/s11207-022-02004-6,&nbsp; 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>197.<span style='font-size:7.0pt;
@@ -1517,9 +1535,9 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021SW002796">Evidence
 from Galactic Cosmic Rays That the Sun Has Entered A Secular Minimum in Solar
 Activity</a><br>
-F. Rahmanifard, A. P. Jordan, W. C. de Wet, N. A. Schwadron, J. K. Wilson, <b>M.
-J. Owens</b>, H. E. Spence, P. Riley, <i>Space Weather</i>, 20, e2021SW002796,
-doi:10.1029/2021SW002796, 2022</p>
+F. <span class=SpellE>Rahmanifard</span>, A. P. Jordan, W. C. de Wet, N. A.
+Schwadron, J. K. Wilson, <b>M. J. Owens</b>, H. E. Spence, P. Riley, <i>Space
+Weather</i>, 20, e2021SW002796, doi:10.1029/2021SW002796, 2022</p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-1.0cm'>196.<span style='font-size:7.0pt;
@@ -1539,31 +1557,37 @@ mso-ansi-language:EN-US'>2021</span><span style='mso-fareast-font-family:"Times 
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021SW002841">Quantifying
 the uncertainty in CME kinematics derived from geometric modelling</a><br>
-L. Barnard<b>, M.J. Owens</b>, C.J. Scott, M. Lockwood, C.A. de Konig, T.
-Amerstorfer, J. Hinterreiter, C. Mostl, J. Davies, <i>Space Weather</i>, 19,
-e2021SW002841, doi: 10.1029/2021SW002841, 2021</p>
+L. Barnard<b>, M.J. Owens</b>, C.J. Scott, M. Lockwood, C.A. de Konig, T. <span
+class=SpellE>Amerstorfer</span>, J. <span class=SpellE>Hinterreiter</span>, C. <span
+class=SpellE>Mostl</span>, J. Davies, <i>Space Weather</i>, 19, e2021SW002841, <span
+class=SpellE>doi</span>: 10.1029/2021SW002841, 2021</p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>194.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/mnras/article/509/2/2390/6402921">A statistical
-evaluation of ballistic backmapping for the slow solar wind: The interplay of
-solar wind acceleration and corotation</a><br>
-A.R. Macneil, <b>M.J. Owens</b>, A.J. Finley and S.P. Matt, <i>M.N. Roy. Astro.
-Soc</i>., 509, 2, p2390-2403, doi: 10.1093/mnras/stab2965, 2021</p>
+evaluation of ballistic <span class=SpellE>backmapping</span> for the slow
+solar wind: The interplay of solar wind acceleration and corotation</a><br>
+A.R. <span class=SpellE>Macneil</span>, <b>M.J. Owens</b>, A.J. Finley and S.P.
+Matt, <i>M.N. Roy. Astro. Soc</i>., 509, 2, p2390-2403, <span class=SpellE>doi</span>:
+10.1093/<span class=SpellE>mnras</span>/stab2965, 2021</p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>193.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.aanda.org/component/article?access=doi&amp;doi=10.1051/0004-6361/202040113"><span
 style='font-family:"Calibri",sans-serif'>In-Situ Multi-Spacecraft and Remote
-Imaging Observations of the First CME Detected by Solar Orbiter and BepiColombo</span></a><span
-style='font-family:"Calibri",sans-serif'> <br>
-E.E. Davies, C. Mostl, <b>M.J.Owens</b>, A.J. Weiss, T. Amerstorfer, J.
-Hinterreiter, M. Bauer, R.L. Bailey, M.A. Reiss, R.J. Forsyth, T.S. Horbury, H.
-O&#8217;Brien, V. Evans, V. Angelini, D. Heyner, I. Richter, H.U. Auster, W.
-Magnes, W. Baumjohann, D. Fischer, D. Barnes, J.A. Davies and R.A. Harrison, <i>Astron.
-Astrophys</i>., 656, A2,&nbsp; doi:10.1051/0004-6361/202040113, 2021</span></p>
+Imaging Observations of the First CME Detected by Solar Orbiter and <span
+class=SpellE>BepiColombo</span></span></a><span style='font-family:"Calibri",sans-serif'>
+<br>
+E.E. Davies, C. <span class=SpellE>Mostl</span>, <span class=SpellE><b>M.J.Owens</b></span>,
+A.J. Weiss, T. <span class=SpellE>Amerstorfer</span>, J. <span class=SpellE>Hinterreiter</span>,
+M. Bauer, R.L. Bailey, M.A. Reiss, R.J. Forsyth, T.S. Horbury, H.
+O&#8217;Brien, V. Evans, V. Angelini, D. <span class=SpellE>Heyner</span>, I.
+Richter, H.U. Auster, W. Magnes, W. <span class=SpellE>Baumjohann</span>, D.
+Fischer, D. Barnes, J.A. Davies and R.A. Harrison, <i>Astron. <span
+class=SpellE>Astrophys</span></i>., 656, A2,&nbsp;
+doi:10.1051/0004-6361/202040113, 2021</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>192.<span style='font-size:7.0pt;
@@ -1573,8 +1597,8 @@ solar-wind observations to generate inner-boundary conditions to
 outer-heliosphere simulations, 1: Dynamic time warping applied to synthetic
 observations</a><br>
 <b>M.J. Owens</b> and J.D. Nicholls, <i>M.N. Roy. Astro. Soc</i>., 508, 2,
-p2575-2582, doi: 10.1093/mnras/stab2512, 2021 <a
-href="https://arxiv.org/abs/2109.03742">arXiv</a></p>
+p2575-2582, <span class=SpellE>doi</span>: 10.1093/<span class=SpellE>mnras</span>/stab2512,
+2021 <a href="https://arxiv.org/abs/2109.03742"><span class=SpellE>arXiv</span></a></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>191.</span><span
@@ -1583,11 +1607,13 @@ href="https://www.aanda.org/articles/aa/abs/2021/08/aa40679-21/aa40679-21.html">
 style='font-family:"Calibri",sans-serif'>Multi-spacecraft study of the solar
 wind at solar minimum: Dependence on latitude and transient outflows</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-R. Laker, T.S. Horbury, S.D. Bale, L. Matteini, T. Woolley, L.D. Woodham, J.E.
-Stawarz, E.E. Davies, J.P. Eastwood, <b>M.J. Owens</b>, H. O&#8217;Brien, V.
-Evans, V. Angelini, I. Richter, D. Heyner, C.J. Owen, P. Louran and A. Federov,
-<i>Astron. &amp; Astrophys</i>., 652, A105, doi:</span> <span style='font-family:
-"Calibri",sans-serif'>10.1051/0004-6361/202140679, 2021</span></p>
+R. Laker, T.S. Horbury, S.D. Bale, L. <span class=SpellE>Matteini</span>, T.
+Woolley, L.D. Woodham, J.E. Stawarz, E.E. Davies, J.P. Eastwood, <b>M.J. Owens</b>,
+H. O&#8217;Brien, V. Evans, V. Angelini, I. Richter, D. <span class=SpellE>Heyner</span>,
+C.J. Owen, P. <span class=SpellE>Louran</span> and A. <span class=SpellE>Federov</span>,
+<i>Astron. &amp; <span class=SpellE>Astrophys</span></i>., 652, A105, <span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1051/0004-6361/202140679,
+2021</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>190.<span style='font-size:7.0pt;
@@ -1596,8 +1622,9 @@ href="https://iopscience.iop.org/article/10.3847/2041-8213/ac1203">Modelling
 the observed distortion of multiple (ghost) CME fronts in STEREO Heliospheric
 imagers</a><br>
 Y. Chi, C. Scott, C. Shen, L. Barnard, <b>M. Owens</b>, M. Xu, J. Zhang, S.
-Jones, Z. Zhong, B. Yu, M. Lang, Y. Wang and M. Lockwood, <i>Astrophys. J</i>. <i>Lett.</i>,
-917, L16, doi: 10.3847/2041-8213/ac1203, 2021</p>
+Jones, Z. Zhong, B. Yu, M. Lang, Y. Wang and M. Lockwood, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>. <i>Lett.</i>, 917, L16, <span class=SpellE>doi</span>:
+10.3847/2041-8213/ac1203, 2021</p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>189.<span style='font-size:7.0pt;
@@ -1605,9 +1632,12 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; <
 href="https://iopscience.iop.org/article/10.3847/1538-4357/ac090a/meta">Coronal
 hole detection and open magnetic flux</a><br>
 J.A. Linker, S.G. Heinemann, M. Temmer, <b>M.J. Owens</b>, R.M. Caplan, C.N.
-Arge, E. Asvestari, V. Delouille, C. Downs, S.J. Hofmeister, I.C. Jebaraj, M.S.
-Madjarska, R.F. Pinto, J. Pomoell, E. Samara, C. Scolini and B. Vrsnak, <i>Astrophys.
-J</i>., 918, 21, doi: 10.3847/1538-4357/ac090a, 2021</p>
+Arge, E. <span class=SpellE>Asvestari</span>, V. <span class=SpellE>Delouille</span>,
+C. Downs, S.J. Hofmeister, I.C. <span class=SpellE>Jebaraj</span>, M.S. <span
+class=SpellE>Madjarska</span>, R.F. Pinto, J. <span class=SpellE>Pomoell</span>,
+E. Samara, C. <span class=SpellE>Scolini</span> and B. <span class=SpellE>Vrsnak</span>,
+<span class=SpellE><i>Astrophys</i></span><i>. J</i>., 918, 21, <span
+class=SpellE>doi</span>: 10.3847/1538-4357/ac090a, 2021</p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>188.</span><span
@@ -1632,11 +1662,12 @@ e2021SW002802, doi:10.1029/2021SW002802, 2021</p>
 margin-left:42.55pt;text-indent:-28.15pt'><span style='font-family:"Calibri",sans-serif'>186.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JA028669"><span
-style='font-family:"Calibri",sans-serif'>Constraining Suprathermal Electron
-Evolution in a Parker Spiral Field with Cassini Observations</span></a><span
+style='font-family:"Calibri",sans-serif'>Constraining <span class=SpellE>Suprathermal</span>
+Electron Evolution in a Parker Spiral Field with Cassini Observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-G.A. Graham, M.R. Bakrania, I.J. Rae, C.J. Owens, A.P. Walsh and <b>M.J. Owens</b>,
-<i>J. Geophys. Res</i>., 126, e2020JA028669, doi:10.1029/2020JA028669, 2021</span></p>
+G.A. Graham, M.R. <span class=SpellE>Bakrania</span>, I.J. Rae, C.J. Owens,
+A.P. Walsh and <b>M.J. Owens</b>, <i>J. <span class=SpellE>Geophys</span>. Res</i>.,
+126, e2020JA028669, doi:10.1029/2020JA028669, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>185.</span><span
@@ -1656,8 +1687,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020EA001610"><spa
 style='font-family:"Calibri",sans-serif'>Constraining the location of the Outer
 Boundary of the Earth&#8217;s Outer Radiation Belt</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-T. Bloch, C.E.J. Watt, <b>M.J. Owens</b>, R.L. Thompson and O. Agiwal, <i>Earth
-and Space Sci</i>., 8, e2020EA001610, doi:10.1029/2020EA001610, 2021</span></p>
+T. Bloch, C.E.J. Watt, <b>M.J. Owens</b>, R.L. Thompson and O. <span
+class=SpellE>Agiwal</span>, <i>Earth and Space Sci</i>., 8, e2020EA001610,
+doi:10.1029/2020EA001610, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>183.</span><span
@@ -1667,8 +1699,8 @@ style='font-family:"Calibri",sans-serif'>Next generation particle
 precipitation: Mesoscale prediction through machine learning (a case study and
 framework for progress)</span></a><span style='font-family:"Calibri",sans-serif'><br>
 R. McGranaghan, J. Ziegler, T. Bloch, S. Hatch, E. Camporeale, K. Lynch, <b>M.
-Owens</b>, J. Gjerloev, B. Zhang and S.H. Skone, <i>Space Weather</i>, 19,
-e2020SW002684, doi:10.1029/2020SW002684, 2021</span></p>
+Owens</b>, J. <span class=SpellE>Gjerloev</span>, B. Zhang and S.H. Skone, <i>Space
+Weather</i>, 19, e2020SW002684, doi:10.1029/2020SW002684, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>182.</span><span
@@ -1677,25 +1709,28 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020SW002673"><spa
 style='font-family:"Calibri",sans-serif'>Using gradient boosting regression to
 improve ambient solar wind model predictions</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-R.L. Bailey, M.A. Reiss, C.N. Arge, C. Mostl, <b>M.J. Owens</b>, U.V.
-Amerstorfer, C.J. Henney, T. Amerstorfer, A.J. Weiss and J. Hinterreiter, <i>Space
-Weather</i>, 19, e2020SW002673, doi:10.1029/2020SW002673, 2021</span></p>
+R.L. Bailey, M.A. Reiss, C.N. Arge, C. <span class=SpellE>Mostl</span>, <b>M.J.
+Owens</b>, U.V. <span class=SpellE>Amerstorfer</span>, C.J. Henney, T. <span
+class=SpellE>Amerstorfer</span>, A.J. Weiss and J. <span class=SpellE>Hinterreiter</span>,
+<i>Space Weather</i>, 19, e2020SW002673, doi:10.1029/2020SW002673, 2021</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>181.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/astrogeo/article/62/3/3.12/6275181">Cosmic
 Meteorology</a><br>
-M. Lockwood and <b>M. Owens</b>, <i>Astron. &amp; Geophys</i>., 62, 3, 12-19,
-doi: 10.1093/astrogeo/atab065, 2021 <a href="https://arxiv.org/abs/2105.12559">arXiv</a></p>
+M. Lockwood and <b>M. Owens</b>, <i>Astron. &amp; <span class=SpellE>Geophys</span></i>.,
+62, 3, 12-19, <span class=SpellE>doi</span>: 10.1093/<span class=SpellE>astrogeo</span>/atab065,
+2021 <a href="https://arxiv.org/abs/2105.12559"><span class=SpellE>arXiv</span></a></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'>180.<span style='font-size:7.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/astrogeo/article/62/3/3.24/6275175">Autumn MIST
 2020: Zooming through the MIST</a><br>
-<b>M.J. Owens</b>, O. Allanson and M. Maunder, <i>Astron. &amp; Geophys</i>., 62,
-3, 24-27, doi: 10.1093/astrogeo/atab067, 2021</p>
+<b>M.J. Owens</b>, O. Allanson and M. Maunder, <i>Astron. &amp; <span
+class=SpellE>Geophys</span></i>., 62, 3, 24-27, <span class=SpellE>doi</span>:
+10.1093/<span class=SpellE>astrogeo</span>/atab067, 2021</p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>179.</span><span
@@ -1703,9 +1738,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-021-01831-3"><span
 style='font-family:"Calibri",sans-serif'>Extreme space-weather events and the
 solar cycle</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, C. Scott, C. Haines, A. Macneil, <i>Solar
-Phys</i>., 296, 82, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-021-01831-3,
-2021</span></p>
+<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard, C. Scott, C. Haines, A. <span
+class=SpellE>Macneil</span>, <i>Solar Phys</i>., 296, 82, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1007/s11207-021-01831-3, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>178.</span><span
@@ -1713,10 +1748,10 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://helioml.org/10/Unsupervised_Classification_of_Solar_Wind_Source_Regions.html"><span
 style='font-family:"Calibri",sans-serif'>Unsupervised Classification of Solar
 Wind Source Regions</span></a><span style='font-family:"Calibri",sans-serif'><br>
-T. Bloch, C. Watt, <b>M. Owens</b>, L. McInnes and A.R. Macneil, in
-&#8220;Machine Learning, Statistics and Data Mining for Heliophysics&#8221;,
-ed. M. Bobra and J. Mason, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.5281/zenodo.1412824,
-2021</span></p>
+T. Bloch, C. Watt, <b>M. Owens</b>, L. McInnes and A.R. <span class=SpellE>Macneil</span>,
+in &#8220;Machine Learning, Statistics and Data Mining for <span class=SpellE>Heliophysics</span>&#8221;,
+ed. M. Bobra and J. Mason, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.5281/zenodo.1412824, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>177.</span><span
@@ -1726,22 +1761,24 @@ style='font-family:"Calibri",sans-serif'>Semi-annual, annual and Universal Time
 variations in the magnetosphere and in geomagnetic activity: 4. Polar Cap
 motions and origins of the Universal Time effect</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, C. Haines, L.A. Barnard, <b>M.J. Owens</b>, C.J. Scott, A.
-Chambodut and K.A. McWilliams, <i>J. Space Weather Space Clim., </i>11, 15,
-doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1051/swsc/2020077,
+M. Lockwood, C. Haines, L.A. Barnard, <b>M.J. Owens</b>, C.J. Scott, A. <span
+class=SpellE>Chambodut</span> and K.A. McWilliams, <i>J. Space Weather Space
+Clim., </i>11, 15, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1051/<span class=SpellE>swsc</span>/2020077,
 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>176.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020SW002674"><span
-style='font-family:"Calibri",sans-serif'>Why are ELEvoHI CME arrival
-predictions different if based on STEREO-A or STEREO-B heliospheric imager
-observations?</span></a><span style='font-family:"Calibri",sans-serif'><br>
-J. Hinterreiter, T. Amerstorfer, M.A. Reiss, C. Mostl, M. Temmer, M. Bauer,
-U.V. Amerstorfer, R.L. Bailey, A.J. Weiss, J.A. Davies, L.A. Barnard and <b>M.J.
-Owens</b>, <i>Space Weather</i>, 19, e2020SW002674, doi:10.1029/2020SW002674,
-2021</span></p>
+style='font-family:"Calibri",sans-serif'>Why are <span class=SpellE>ELEvoHI</span>
+CME arrival predictions different if based on STEREO-A or STEREO-B heliospheric
+imager observations?</span></a><span style='font-family:"Calibri",sans-serif'><br>
+J. <span class=SpellE>Hinterreiter</span>, T. <span class=SpellE>Amerstorfer</span>,
+M.A. Reiss, C. <span class=SpellE>Mostl</span>, M. Temmer, M. Bauer, U.V. <span
+class=SpellE>Amerstorfer</span>, R.L. Bailey, A.J. Weiss, J.A. Davies, L.A.
+Barnard and <b>M.J. Owens</b>, <i>Space Weather</i>, 19, e2020SW002674,
+doi:10.1029/2020SW002674, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>175.</span><span
@@ -1749,8 +1786,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/staa3983/6056491"><span
 style='font-family:"Calibri",sans-serif'>Evolving Flow Properties of Magnetic
 Inversions Observed by Helios</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A.R. Macneil, <b>M.J. Owens</b>, R.T. Wicks and M. Lockwood, <i>M.N. Roy.
-Astro. Soc</i>., 501, 4, 5379-5392, doi:10.1093/mnras/staa3983, 2021</span></p>
+A.R. <span class=SpellE>Macneil</span>, <b>M.J. Owens</b>, R.T. Wicks and M.
+Lockwood, <i>M.N. Roy. Astro. Soc</i>., 501, 4, 5379-5392, doi:10.1093/<span
+class=SpellE>mnras</span>/staa3983, 2021</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>174.</span><span
@@ -1761,22 +1799,21 @@ Coronal Structure during the Maunder Minimum: Comparative Study of the Total
 Eclipse Drawings in 1706 and 1715</span></a><br>
 <span style='font-family:"Calibri",sans-serif'>H. Hayakawa, M. Lockwood, <b>M.J.
 Owens</b> and M. Soma, <i>Space Weather &amp; Space Clim.</i>, 11, 1,
-doi:10.1051/swsc/2020035, 2021</span></p>
+doi:10.1051/<span class=SpellE>swsc</span>/2020035, 2021</span></p>
 
 <h2><span lang=EN-US style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:EN-US'>2020</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=section1 style='margin-top:5.0pt;margin-right:0cm;margin-bottom:0cm;
-margin-left:42.55pt;margin-bottom:.0001pt;text-indent:-1.0cm'><span
-style='font-family:"Calibri",sans-serif'>173.</span><span style='font-size:
-7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
+margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>173.</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.swsc-journal.org/component/article?access=doi&amp;doi=10.1051/swsc/2020062"><span
 style='font-family:"Calibri",sans-serif'>Semi-annual, annual and Universal Time
 variations in the magnetosphere and in geomagnetic activity: 3. Modelling</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L.A. Barnard, C.E. Watt, C.J. Scott, J. Coxon
 and K.A. McWilliams, submitted to <i>Space Weather and Space Clim.</i>, 10, 61,
-doi:10.1051/swsc/2020023, 2020</span></p>
+doi:10.1051/<span class=SpellE>swsc</span>/2020023, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>172.</span><span
@@ -1795,8 +1832,9 @@ href="https://iopscience.iop.org/article/10.3847/2041-8213/abb9a5"><span
 style='font-family:"Calibri",sans-serif'>The Solar Wind Angular Momentum Flux
 as Observed by Parker Solar Probe</span></a><span style='font-family:"Calibri",sans-serif'><br>
 A.J. Finley, S.P. Matt, V. Reville, R.F. Pinto, <b>M. Owens</b>, J.C. Kasper,
-K.E. Korreck, A.W. Case, M.L. Stevens, P. Whittlesey, D. Larson and R. Livi., <i>Astrophys.
-J. Lett</i>., 902, L4, doi:10.3847/2041-8213/abb9a5, 2020</span></p>
+K.E. Korreck, A.W. Case, M.L. Stevens, P. Whittlesey, D. Larson and R. Livi., <span
+class=SpellE><i>Astrophys</i></span><i>. J. Lett</i>., 902, L4,
+doi:10.3847/2041-8213/abb9a5, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>170.</span><span
@@ -1804,8 +1842,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.aanda.org/articles/aa/full_html/2020/10/aa37257-19/aa37257-19.html"><span
 style='font-family:"Calibri",sans-serif'>The Solar Orbiter magnetometer</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-T.S. Horbury et al (including <b>M.J. Owens</b>), <i>Astron &amp; Astrophys</i>.,
-642, A9, 11, doi:10.1051/0004-6361/201937257, 2020</span></p>
+T.S. Horbury et al (including <b>M.J. Owens</b>), <i>Astron &amp; <span
+class=SpellE>Astrophys</span></i>., 642, A9, 11,
+doi:10.1051/0004-6361/201937257, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>169.</span><span
@@ -1814,8 +1853,9 @@ href="https://www.aanda.org/articles/aa/full_html/2020/10/aa38445-20/aa38445-20.
 style='font-family:"Calibri",sans-serif'>The Solar Orbiter Science Activity
 Plan: Translating solar physics questions into action</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-I. Zouganelis et al (including <b>M.J. Owens</b>), <i>Astron. Astrophys</i>.,
-642, A3, 19, doi:10.1051/0004-6361/202038445, 2020</span></p>
+I. <span class=SpellE>Zouganelis</span> et al (including <b>M.J. Owens</b>), <i>Astron.
+<span class=SpellE>Astrophys</span></i>., 642, A3, 19,
+doi:10.1051/0004-6361/202038445, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>168.</span><span
@@ -1830,11 +1870,12 @@ L. Barnard, <b>M.J. Owens</b>, C.J. Scott, C.A. de Koning, <i>AGU Advances</i>,
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>167.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/mnras/article/498/4/5273/5900563?login=false"><span
-style='font-family:"Calibri",sans-serif'>Parker Solar Probe Observations of
-Suprathermal Electron Flux Enhancements Originating from Coronal Hole
-Boundaries</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A.R. Macneil, <b>M.J. Owens</b>, L. Bercic and A.J. Finley, <i>M.N. Roy. Astro.
-Soc</i>., staa2660, doi:10.1093/mnras/staa2660, 2020</span></p>
+style='font-family:"Calibri",sans-serif'>Parker Solar Probe Observations of <span
+class=SpellE>Suprathermal</span> Electron Flux Enhancements Originating from
+Coronal Hole Boundaries</span></a><span style='font-family:"Calibri",sans-serif'><br>
+A.R. <span class=SpellE>Macneil</span>, <b>M.J. Owens</b>, L. <span
+class=SpellE>Bercic</span> and A.J. Finley, <i>M.N. Roy. Astro. Soc</i>.,
+staa2660, doi:10.1093/<span class=SpellE>mnras</span>/staa2660, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>166.</span><span
@@ -1843,9 +1884,10 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019SW002428"><sp
 style='font-family:"Calibri",sans-serif'>Characterization of the Space
 Radiation Environment Through a Modern Secular Minimum</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-F. Rahmanifard, W. C. Wet, N. A. Schwadron, <b>M. J. Owens</b>, A. P. Jordan,
-J. Wilson, C. J. Joyce, H. E. Spence, C. W. Smith and L. W. Townsend, <i>Space
-Weather</i>, 18, e2019SW002428, doi:10.1029/2019SW002428, 2020</span></p>
+F. <span class=SpellE>Rahmanifard</span>, W. C. Wet, N. A. Schwadron, <b>M. J.
+Owens</b>, A. P. Jordan, J. Wilson, C. J. Joyce, H. E. Spence, C. W. Smith and
+L. W. Townsend, <i>Space Weather</i>, 18, e2019SW002428,
+doi:10.1029/2019SW002428, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>165.</span><span
@@ -1854,8 +1896,9 @@ href="https://iopscience.iop.org/article/10.3847/1538-4357/ab9807"><span
 style='font-family:"Calibri",sans-serif'>The Solar Corona during the Total
 Eclipse on 1806 June 16: Graphical Evidence of the Coronal Structure during the
 Dalton Minimum</span></a><span style='font-family:"Calibri",sans-serif'><br>
-H. Hayakawa, <b>M.J. Owens</b>, M. Lockwood, M. S&ocirc;ma, <i>Astrophys. J.</i>,
-900, 114, doi: 10.3847/1538-4357/ab9807, 2020</span></p>
+H. Hayakawa, <b>M.J. Owens</b>, M. Lockwood, M. <span class=SpellE>S&ocirc;ma</span>,
+<span class=SpellE><i>Astrophys</i></span><i>. J.</i>, 900, 114, <span
+class=SpellE>doi</span>: 10.3847/1538-4357/ab9807, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>164.</span><span
@@ -1864,8 +1907,9 @@ href="https://iopscience.iop.org/article/10.3847/1538-4357/aba95a"><span
 style='font-family:"Calibri",sans-serif'>Ghost fronts of CMEs to predict the
 arrival time and speed of CME at Venus and Earth</span></a><br>
 <span style='font-family:"Calibri",sans-serif'>Y. Chi, C. Scott, C. Shen, <b>M.
-Owens</b>, M. Lang, M. Xu, Z. Zhong, J. Zhang, Y. Wang and M. Lockwood, <i>Astrophys.
-J</i>., 899:143, doi: 10.3847/1538-4357/aba95a, 2020</span></p>
+Owens</b>, M. Lang, M. Xu, Z. Zhong, J. Zhang, Y. Wang and M. Lockwood, <span
+class=SpellE><i>Astrophys</i></span><i>. J</i>., 899:143, <span class=SpellE>doi</span>:
+10.3847/1538-4357/aba95a, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>163.</span><span
@@ -1873,8 +1917,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://oxfordre.com/physics/view/10.1093/acrefore/9780190871994.001.0001/acrefore-9780190871994-e-9"><span
 style='font-family:"Calibri",sans-serif'>Solar Cycle</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-L. van Driel-Gesztelyi and <b>M.J. Owens</b>, <i>Oxford Research Encyclopedia
-of Physics</i>, Oxford University Press (ed. E.R. Priest), doi:10.1093/acrefore/9780190871994.013.9,
+L. van Driel-Gesztelyi and <b>M.J. Owens</b>, <i>Oxford Research <span
+class=SpellE>Encyclopedia</span> of Physics</i>, Oxford University Press (ed.
+E.R. Priest), doi:10.1093/<span class=SpellE>acrefore</span>/9780190871994.013.9,
 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -1885,8 +1930,9 @@ style='font-family:"Calibri",sans-serif'>Semi-annual, annual and Universal Time
 variations in the magnetosphere and in geomagnetic activity: 2. The effect of
 solar wind variations</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, K.A. McWilliams, <b>M.J. Owens</b>, L.A. Barnard, C.E. Watt, C.J.
-Scott, A. Macneill and J. Coxon, <i>Space Weather and Space Climate</i>, 30,
-24, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1051/swsc/2020033,
+Scott, A. <span class=SpellE>Macneill</span> and J. Coxon, <i>Space Weather and
+Space Climate</i>, 30, 24, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1051/<span class=SpellE>swsc</span>/2020033,
 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -1907,7 +1953,7 @@ variations in the magnetosphere and in geomagnetic activity: 1. Geomagnetic
 data</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L.A. Barnard, C. Haines, C.J. Scott, K.A.
 McWilliams and J. Coxon, <i>J. Space Weather Space Clim.</i>, 10, 23,
-doi:10.1051/swsc/2020023, 2020</span></p>
+doi:10.1051/<span class=SpellE>swsc</span>/2020023, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>159.</span><span
@@ -1915,9 +1961,11 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/mnras/article/494/3/3642/5819029"><span
 style='font-family:"Calibri",sans-serif'>The Evolution of Inverted Magnetic
 Fields Through the Inner Heliosphere</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A.R. Macneil, <b>M.J. Owens</b>, R.T. Wicks, M. Lockwood, S.N. Bentley and
-M.Lang, <i>M.N. Roy. Astro. Soc</i>., 494,3, 3642-3655, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.1093/mnras/staa951, 2020</span></p>
+A.R. <span class=SpellE>Macneil</span>, <b>M.J. Owens</b>, R.T. Wicks, M.
+Lockwood, S.N. Bentley and <span class=SpellE>M.Lang</span>, <i>M.N. Roy.
+Astro. Soc</i>., 494,3, 3642-3655, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1093/<span class=SpellE>mnras</span>/staa951,
+2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>158.</span><span
@@ -1935,10 +1983,12 @@ href="https://iopscience.iop.org/article/10.3847/1538-4357/ab78a0"><span
 style='font-family:"Calibri",sans-serif'>Forecasting the Ambient Solar Wind
 with Numerical Models. II. An adaptive prediction system for specifying solar
 wind speed near the Sun</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M.A. Reiss, P.J. MacNeice, K. Muglach, C.N. Arge, C. Mostl, P. Riley, J.
-Hintereiter, R.L. Bailey, A.J. Weiss, <b>M.J. Owens</b>,<b> </b>T. Amerstorfer
-and U. Amerstorfer, <i>Astrophys. J</i>., 891, 165, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.3847/1538-4357/ab78a0, 2020</span></p>
+M.A. Reiss, P.J. MacNeice, K. <span class=SpellE>Muglach</span>, C.N. Arge, C. <span
+class=SpellE>Mostl</span>, P. Riley, J. <span class=SpellE>Hintereiter</span>,
+R.L. Bailey, A.J. Weiss, <b>M.J. Owens</b>,<b> </b>T. <span class=SpellE>Amerstorfer</span>
+and U. <span class=SpellE>Amerstorfer</span>, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 891, 165, <span class=SpellE>doi</span>:</span> <span style='font-family:
+"Calibri",sans-serif'>10.3847/1538-4357/ab78a0, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>156.</span><span
@@ -1956,11 +2006,12 @@ doi:10.1007/s11207-020-01605-3, 2020</span></p>
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>155.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://www.swsc-journal.org/articles/swsc/abs/2020/01/swsc190056/swsc190056.html"><span
-style='font-family:"Calibri",sans-serif'>Quantifying the latitudinal
-representivity of in situ solar wind speed observations</span></a><span
+style='font-family:"Calibri",sans-serif'>Quantifying the latitudinal <span
+class=SpellE>representivity</span> of in situ solar wind speed observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, M. Lang, P. Riley, M. Lockwood and A. Lawless, <i>J. Space
-Weather and Space Climate</i>, 8, 10, doi:10.1051/swsc/2020009, 2020</span></p>
+Weather and Space Climate</i>, 8, 10, doi:10.1051/<span class=SpellE>swsc</span>/2020009,
+2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>154.</span><span
@@ -1969,8 +2020,9 @@ href="https://link.springer.com/article/10.1007%2Fs11207-020-01601-7"><span
 style='font-family:"Calibri",sans-serif'>Signatures of coronal loop opening via
 interchange reconnection in the slow solar wind at 1 AU</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood, A. Macneil and D. Stansby, <i>Solar Physics</i>,</span>
-<span style='font-family:"Calibri",sans-serif'>295, 37,
+<b>M.J. Owens</b>, M. Lockwood, A. <span class=SpellE>Macneil</span> and D. <span
+class=SpellE>Stansby</span>, <i>Solar Physics</i>,</span> <span
+style='font-family:"Calibri",sans-serif'>295, 37,
 doi:10.1007/s11207-020-01601-7, 2020</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -1980,9 +2032,10 @@ href="https://oxfordre.com/physics/view/10.1093/acrefore/9780190871994.001.0001/
 style='font-family:"Calibri",sans-serif'>Solar wind structure</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, <i><span style='color:#212121;background:white'>Oxford
-Research Encyclopedia of Physics</span></i><span style='color:#212121;
-background:white'>, Oxford University Press (ed. E.R. Priest),
-doi:10.1093/acrefore/9780190871994.013.19, 2020</span></span></p>
+Research <span class=SpellE>Encyclopedia</span> of Physics</span></i><span
+style='color:#212121;background:white'>, Oxford University Press (ed. E.R.
+Priest), doi:10.1093/<span class=SpellE>acrefore</span>/9780190871994.013.19,
+2020</span></span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>152.</span><span
@@ -1990,8 +2043,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-019-1579-3"><span
 style='font-family:"Calibri",sans-serif'>Radial Evolution of Sunward Strahl
 Electrons in the Inner Heliosphere</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A. Macneil, <b>M.J. Owens</b>, M. Lockwood, S. Stverak and C.J. Owens,&nbsp; <i>Sol.
-Phys</i>., 295, 16, doi: 10.1007/s11207-019-1579-3, 2020</span></p>
+A. <span class=SpellE>Macneil</span>, <b>M.J. Owens</b>, M. Lockwood, S. <span
+class=SpellE>Stverak</span> and C.J. Owens,&nbsp; <i>Sol. Phys</i>., 295, 16, <span
+class=SpellE>doi</span>: 10.1007/s11207-019-1579-3, 2020</span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2019</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -2012,8 +2066,8 @@ href="https://iopscience.iop.org/article/10.3847/2041-8213/ab4ff4"><span
 style='font-family:"Calibri",sans-serif'>Direct Detection of Solar Angular
 Momentum Loss with the Wind Spacecraft</span></a><span style='font-family:"Calibri",sans-serif'><br>
 A.J. Finley, A.L. Hewitt, S.P. Matt, <b>M.J. Owens</b>, R.F. Pinto, V. Reville,
-<i>Astrophys. J</i>.<i> Lett.</i>, 885, L30, doi:10.3847/2041-8213/ab4ff4, 2019
-</span></p>
+<span class=SpellE><i>Astrophys</i></span><i>. J</i>.<i> Lett.</i>, 885, L30,
+doi:10.3847/2041-8213/ab4ff4, 2019 </span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>149.</span><span
@@ -2021,8 +2075,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/1538-4357/ab3729"><span
 style='font-family:"Calibri",sans-serif'>Solar angular momentum loss over the
 past several millennia</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A.J. Finley, S. Deshmukh, S.P. Matt, <b>M.J. Owens </b>and C.-J. Wu, <i>Astrophys.
-J.</i>, 883, 67, doi:10.3847/1538-4357/ab3729, 2019</span></p>
+A.J. Finley, S. Deshmukh, S.P. Matt, <b>M.J. Owens </b>and C.-J. Wu, <span
+class=SpellE><i>Astrophys</i></span><i>. J.</i>, 883, 67,
+doi:10.3847/1538-4357/ab3729, 2019</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>148.</span><span
@@ -2030,8 +2085,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.75"><span
 style='font-family:"Calibri",sans-serif'>Thunderstorm occurrence at ten sites
 across Great Britain over 1884-1993</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Valdivieso, <b>M.J. Owens</b>, C.J. Scott, E. Hawkins and S. Burt, <i>Geosci.
-Data J.</i>, 00: 1-12, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/gdj3.75,
+M. Valdivieso, <b>M.J. Owens</b>, C.J. Scott, E. Hawkins and S. Burt, <span
+class=SpellE><i>Geosci</i></span><i>. Data J.</i>, 00: 1-12, <span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/gdj3.75,
 2019<br>
 Data: </span><a
 href="https://catalogue.ceda.ac.uk/uuid/2503df629a8a485e8582e5150876b210"><span
@@ -2051,10 +2107,11 @@ style='font-family:"Calibri",sans-serif'><br>
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>146.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-019-1478-7"><span
-style='font-family:"Calibri",sans-serif'>On the origin of Ortho-Gardenhose
-Heliospheric Flux</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, <b>M.J. Owens</b> and A. Macneil, <i>Sol. Phys</i>., 294: 85, doi:10.1007/s11207-019-1478-7,
-2019</span></p>
+style='font-family:"Calibri",sans-serif'>On the origin of Ortho-<span
+class=SpellE>Gardenhose</span> Heliospheric Flux</span></a><span
+style='font-family:"Calibri",sans-serif'><br>
+M. Lockwood, <b>M.J. Owens</b> and A. <span class=SpellE>Macneil</span>, <i>Sol.
+Phys</i>., 294: 85, doi:10.1007/s11207-019-1478-7, 2019</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>145.</span><span
@@ -2063,8 +2120,8 @@ href="https://link.springer.com/article/10.1007%2Fs11207-019-1479-6"><span
 style='font-family:"Calibri",sans-serif'>Towards the construction of a solar
 wind &#8220;reanalysis&#8221; dataset:&nbsp; Application to the first
 perihelion pass of Parker Solar Probe</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lang, P. Riley and D. Stansby, <i>Sol. Phys</i>., 294:83,
-doi:10.1007/s11207-019-1479-6, 2019</span></p>
+<b>M.J. Owens</b>, M. Lang, P. Riley and D. <span class=SpellE>Stansby</span>, <i>Sol.
+Phys</i>., 294:83, doi:10.1007/s11207-019-1479-6, 2019</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>144.</span><span
@@ -2074,7 +2131,7 @@ style='font-family:"Calibri",sans-serif'>Extracting inner-heliosphere solar
 wind speed information from Heliospheric Imager observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 L.A. Barnard, <b>M.J. Owens</b> and C.J. Scott, <i>Space Weather</i>, 17,
-925-938, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1029/2019SW002226,
+925-938, <span class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1029/2019SW002226,
 2019</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -2084,9 +2141,9 @@ href="https://www.swsc-journal.org/articles/swsc/full_html/2019/01/swsc190002/sw
 style='font-family:"Calibri",sans-serif'>Time-of-day/time-of-year response
 functions of planetary geomagnetic indices</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-M. Lockwood, A. Chambodut, I.D. Finch, L.A. Barnard, <b>M.J. Owens </b>and C.
-Haines, <i>J. Space Weather and Space Climate</i>, 9, A20,
-doi:10.1051/swsc/2019017, 2019</span></p>
+M. Lockwood, A. <span class=SpellE>Chambodut</span>, I.D. Finch, L.A. Barnard, <b>M.J.
+Owens </b>and C. Haines, <i>J. Space Weather and Space Climate</i>, 9, A20,
+doi:10.1051/<span class=SpellE>swsc</span>/2019017, 2019</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>142.</span><span
@@ -2149,7 +2206,7 @@ style='font-family:"Calibri",sans-serif'>The development of a space
 climatology: 1. Solar-wind magnetosphere coupling as a function of timescale</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, S. Bentley, <b>M.J. Owens</b>, L.A. Barnard, C.J. Scott, C.E. Watt
-and O. Allanson, <i>Space Weather</i>, 17, 133&#8211;156, doi:
+and O. Allanson, <i>Space Weather</i>, 17, 133&#8211;156, <span class=SpellE>doi</span>:
 10.1029/2018SW001856, 2019</span></p>
 
 <h2><span style='mso-fareast-font-family:"Times New Roman"'>2018<o:p></o:p></span></h2>
@@ -2162,7 +2219,8 @@ style='font-family:"Calibri",sans-serif'>A homogeneous aa index: 2. Hemispheric
 asymmetries and the equinoctial variation</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 M. Lockwood, L.A. Barnard, <b>M.J. Owens</b> and E. Clarke, <i>Space Weather
-and Space Climate</i>, 8, A58, doi:10.1051/swsc/2018044, 2018<br>
+and Space Climate</i>, 8, A58, doi:10.1051/<span class=SpellE>swsc</span>/2018044,
+2018<br>
 Data: </span><a
 href="https://www.swsc-journal.org/articles/swsc/olm/2018/01/swsc180022/swsc180022.html"><span
 style='font-family:"Calibri",sans-serif'>https://www.swsc-journal.org/articles/swsc/olm/2018/01/swsc180022/swsc180022.html</span></a></p>
@@ -2195,7 +2253,8 @@ href="https://www.swsc-journal.org/articles/swsc/full_html/2018/01/swsc180020/sw
 style='font-family:"Calibri",sans-serif'>A homogeneous aa index: 1. Secular
 variation</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, L.A. Barnard, <b>M.J. Owens</b> and E. Clarke, <i>Space Weather
-and Space Climate</i>, 8, A53, doi:10.1051/swsc/2018038, 2018</span></p>
+and Space Climate</i>, 8, A53, doi:10.1051/<span class=SpellE>swsc</span>/2018038,
+2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>132.</span><span
@@ -2204,8 +2263,9 @@ href="http://iopscience.iop.org/article/10.3847/2041-8213/aaee82/meta"><span
 style='font-family:"Calibri",sans-serif'>Generation of inverted heliospheric
 magnetic flux by coronal loop opening and slow solar wind release</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard and A. MacNeil, <i>Astrophys. J.
-Lett</i>., 868, 1, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.3847/2041-8213/aaee82,
+<b>M.J. Owens</b>, M. Lockwood, L.A. Barnard and A. MacNeil, <span
+class=SpellE><i>Astrophys</i></span><i>. J. Lett</i>., 868, 1, <span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.3847/2041-8213/aaee82,
 2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -2223,9 +2283,10 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018SW002040?af=R"><span
 style='font-family:"Calibri",sans-serif'>Assessing the quality of models of the
 ambient solar wind</span></a><span style='font-family:"Calibri",sans-serif'><br>
-P. MacNeice, L. Jian, S.K. Antiochos, C.N. Arge, C.D. Bussy-Virat, M.L. DeRosa,
-B.V. Jackson, J.A. Linker, Z. Mikic, <b>M.J. Owens</b>, A.J. Ridley, P. Riley,
-N. Savani, I. Sokolov, <i>Space Weather</i>, doi:10.1029/2018SW002040, 2018</span></p>
+P. MacNeice, L. Jian, S.K. Antiochos, C.N. Arge, C.D. <span class=SpellE>Bussy</span>-Virat,
+M.L. DeRosa, B.V. Jackson, J.A. Linker, Z. <span class=SpellE>Mikic</span>, <b>M.J.
+Owens</b>, A.J. Ridley, P. Riley, N. Savani, I. Sokolov, <i>Space Weather</i>,
+doi:10.1029/2018SW002040, 2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>129.</span><span
@@ -2234,9 +2295,9 @@ href="https://www.sciencedirect.com/science/article/pii/S0019103518301192"><span
 style='font-family:"Calibri",sans-serif'>Fine-Scale Structure in Cometary Dust
 Tails I: Analysis of Striae in Comet C/2006 P1 (McNaught) through Temporal
 Mapping</span></a><span style='font-family:"Calibri",sans-serif'><br>
-O. Price, G.H. Jones, J. Morrill, <b>M. Owens</b>, K. Battams, H. Morgan, M.
-Druckmuller, S. Deiries, <i>Icarus,</i> 319, 540-557,
-doi:10.1016/j.icarus.2018.09.013, 2018</span></p>
+O. Price, G.H. Jones, J. Morrill, <b>M. Owens</b>, K. <span class=SpellE>Battams</span>,
+H. Morgan, M. Druckmuller, S. <span class=SpellE>Deiries</span>, <i>Icarus,</i>
+319, 540-557, doi:10.1016/j.icarus.2018.09.013, 2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>128.</span><span
@@ -2256,16 +2317,17 @@ style='font-family:"Calibri",sans-serif'>The role of empirical space-weather
 models (in a world of physics-based numerical simulations)</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, P. Riley and T. Horbury, <i>Proceedings IAU Symposium No.
-335</i>, Cambridge University Press, Eds C. Foullon &amp; O.E. Malandraki,
-doi:10.1017/S1743921317007128, 2018</span></p>
+335</i>, Cambridge University Press, Eds C. <span class=SpellE>Foullon</span>
+&amp; O.E. <span class=SpellE>Malandraki</span>, doi:10.1017/S1743921317007128,
+2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>126.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018SW001855"><span
-style='font-family:"Calibri",sans-serif'>Ion charge states and potential
-geoeffectiveness: The role of coronal spectroscopy for space-weather
-forecasting</span></a><span style='font-family:"Calibri",sans-serif'><br>
+style='font-family:"Calibri",sans-serif'>Ion charge states and potential <span
+class=SpellE>geoeffectiveness</span>: The role of coronal spectroscopy for
+space-weather forecasting</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, M. Lockwood and L.A. Barnard, <i>Space Weather, </i>16,
 doi:10.1029/2018SW001855, 2018</span></p>
 
@@ -2276,9 +2338,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JA024740"><spa
 style='font-family:"Calibri",sans-serif'>ULF wave activity in the
 magnetosphere: resolving solar wind interdependencies to identify driving
 mechanisms</span></a><span style='font-family:"Calibri",sans-serif'><br>
-S. Bentley, C.E. Watt, <b>M.J. Owens</b> and I.J. Rae, <i>J. Geophys. Res</i>.,
-123, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/2017JA024740,
-2018</span></p>
+S. Bentley, C.E. Watt, <b>M.J. Owens</b> and I.J. Rae, <i>J. <span
+class=SpellE>Geophys</span>. Res</i>., 123, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1002/2017JA024740, 2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>124.</span><span
@@ -2288,7 +2350,8 @@ style='font-family:"Calibri",sans-serif'>What can the annual <sup>10</sup>Be
 solar activity reconstructions tell us about historic space weather?</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 L. Barnard, K.G. McCracken, <b>M.J. Owens</b> and M. Lockwood, <i>J.</i> <i>Space
-Weather Space Clim.</i>, 18, A23, doi: 10.1051/swsc/2018014, 2018</span></p>
+Weather Space Clim.</i>, 18, A23, <span class=SpellE>doi</span>: 10.1051/<span
+class=SpellE>swsc</span>/2018014, 2018</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>123.</span><span
@@ -2297,9 +2360,10 @@ href="https://www.swsc-journal.org/articles/swsc/abs/2018/01/swsc170036/swsc1700
 style='font-family:"Calibri",sans-serif'>Space Climate and Space Weather over
 the past 400 years: 2. Geomagnetic Storms and Substorms</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M.Lockwood, <b>M.J. Owens</b>, L.A. Barnard , C.J. Scott, C.E. Watt and S.
-Bentley, <i>J. Space Weather Space Clim</i>., 8, A12, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.1051/swsc/2017048, 2018</span></p>
+<span class=SpellE>M.Lockwood</span>, <b>M.J. Owens</b>, L.A. Barnard , C.J.
+Scott, C.E. Watt and S. Bentley, <i>J. Space Weather Space Clim</i>., 8, A12, <span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1051/<span
+class=SpellE>swsc</span>/2017048, 2018</span></p>
 
 <h2><span style='mso-fareast-font-family:"Times New Roman"'>2017<o:p></o:p></span></h2>
 
@@ -2312,17 +2376,20 @@ Age: An update from recent reconstructions and climate simulations</span></a><sp
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, M. Lockwood, E. Hawkins, I. Usoskin, G.S. Jones, L. Barnard,
 A. Schurer and J. Fasullo, <i>Space Weather and Space Climate</i>,</span> <span
-style='font-family:"Calibri",sans-serif'>7, A33, doi:10.1051/swsc/2017034, 2017</span></p>
+style='font-family:"Calibri",sans-serif'>7, A33, doi:10.1051/<span
+class=SpellE>swsc</span>/2017034, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>121.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017JA024631"><span
-style='font-family:"Calibri",sans-serif'>Sunward strahl: A method to
-unambiguously determine open solar flux from in situ spacecraft measurements
-using suprathermal electron data</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood, P. Riley and J. Linker, <i>J. Geophys. Res., </i>122,
-10,980&#8211;10,989,<i> </i>doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/2017JA024631,
+style='font-family:"Calibri",sans-serif'>Sunward <span class=SpellE>strahl</span>:
+A method to unambiguously determine open solar flux from in situ spacecraft
+measurements using <span class=SpellE>suprathermal</span> electron data</span></a><span
+style='font-family:"Calibri",sans-serif'><br>
+<b>M.J. Owens</b>, M. Lockwood, P. Riley and J. Linker, <i>J. <span
+class=SpellE>Geophys</span>. Res., </i>122, 10,980&#8211;10,989,<i> </i><span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/2017JA024631,
 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -2342,8 +2409,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017SW001681"><sp
 style='font-family:"Calibri",sans-serif'>Data Assimilation in the Solar Wind:
 Challenges and First Results</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lang, P. Browne, P.J. van Leeuwen and <b>M.J. Owens</b>, <i>Space Weather</i>,</span>
-<span style='font-family:"Calibri",sans-serif'>15, 1490&#8211;1510, doi:
-10.1002/2017SW001681, 2017</span></p>
+<span style='font-family:"Calibri",sans-serif'>15, 1490&#8211;1510, <span
+class=SpellE>doi</span>: 10.1002/2017SW001681, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>118.</span><span
@@ -2351,8 +2418,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/1538-4357/aa8a70"><span
 style='font-family:"Calibri",sans-serif'>The Open Flux Problem</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-J. A. Linker, R. M. Caplan, C. Downs, P. Riley, Z. Mikic, R. Lionello, C. J.
-Henney, C.N. Arge, J. Liu, M. Derosa, A. Yeates and <b>M. J. Owens</b>, <i>Astrophys.
+J. A. Linker, R. M. Caplan, C. Downs, P. Riley, Z. <span class=SpellE>Mikic</span>,
+R. Lionello, C. J. Henney, C.N. Arge, J. Liu, M. <span class=SpellE>Derosa</span>,
+A. Yeates and <b>M. J. Owens</b>, <span class=SpellE><i>Astrophys</i></span><i>.
 J.,</i> 848:70 (11pp), 2, doi:10.3847/1538-4357/aa8a70, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -2363,8 +2431,9 @@ style='font-family:"Calibri",sans-serif'>Space Climate and Space Weather over
 the past 400 years: 1. The Power Input to the Magnetosphere</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L.A. Barnard, C.J. Scott, and C.E. Watt, <i>J.
-Space Weather Space Clim</i>., 7, A25, doi:</span> <span style='font-family:
-"Calibri",sans-serif'>10.1051/swsc/2017019, 2017</span></p>
+Space Weather Space Clim</i>., 7, A25, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1051/<span class=SpellE>swsc</span>/2017019,
+2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>116.</span><span
@@ -2374,16 +2443,16 @@ style='font-family:"Calibri",sans-serif'>Interplanetary magnetic field
 properties and variability near Mercury&#8217;s orbit</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 M.K. James, S.M. Imber, E.J. Bunce, T.K. Yeoman, M. Lockwood, <b>M.J. Owens</b>
-and J.A. Slavin, <i>J. Geophys. Res</i>., 122, 7907&#8211;7924,
-doi:10.1002/2017JA024435, 2017</span></p>
+and J.A. Slavin, <i>J. <span class=SpellE>Geophys</span>. Res</i>., 122,
+7907&#8211;7924, doi:10.1002/2017JA024435, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>115.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="http://onlinelibrary.wiley.com/doi/10.1002/2017SW001640/epdf"><span
 style='font-family:"Calibri",sans-serif'>Tracking CMEs using data from the
-Solar Stormwatch project; observing deflections and other properties</span></a><span
-style='font-family:"Calibri",sans-serif'><br>
+Solar <span class=SpellE>Stormwatch</span> project; observing deflections and
+other properties</span></a><span style='font-family:"Calibri",sans-serif'><br>
 S. Jones, L. Barnard, C. Scott, <b>M.J. Owens</b> and J. Wilkinson, <i>Space
 Weather</i>, 15, 1125&#8211;1140, doi:10.1002/2017SW001640, 2017</span></p>
 
@@ -2393,9 +2462,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="http://www.ann-geophys.net/35/825/2017/"><span style='font-family:"Calibri",sans-serif'>Decadal
 trends in the diurnal variation of galactic cosmic rays observed using neutron
 monitor data</span></a><span style='font-family:"Calibri",sans-serif'><br>
-S.R. Thomas, <b>M.J. Owens</b>, M. Lockwood and C.J. Owen, <i>Ann. Geophys.</i>,
-35, 825-838, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.5194/angeo-35-825-2017,
-2017</span></p>
+S.R. Thomas, <b>M.J. Owens</b>, M. Lockwood and C.J. Owen, <i>Ann. <span
+class=SpellE>Geophys</span>.</i>, 35, 825-838, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.5194/angeo-35-825-2017, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>113.</span><span
@@ -2404,9 +2473,9 @@ href="https://www.nature.com/articles/s41598-017-04546-3"><span
 style='font-family:"Calibri",sans-serif'>Coronal mass ejections are not
 coherent magnetohydrodynamic structures</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood and L.Barnard, <i>Nature Sci. Rep</i>., 7:1,
-4152, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1038/s41598-017-04546-3,
-2017</span></p>
+<b>M.J. Owens</b>, M. Lockwood and <span class=SpellE>L.Barnard</span>, <i>Nature
+Sci. Rep</i>., 7:1, 4152, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1038/s41598-017-04546-3, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>112.</span><span
@@ -2416,8 +2485,8 @@ style='font-family:"Calibri",sans-serif'>Coronal and heliospheric magnetic flux
 circulation and its relation to open solar flux evolution</span></a><span
 style='font-family:"Calibri",sans-serif'> <br>
 M. Lockwood, <b>M.J. Owens</b>, S.M. Imber, M.K. James, E.J. Bunce, and T.K.
-Yeoman, <i>J. Geophys. Res</i>., doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/2016JA023644,
-2017</span></p>
+Yeoman, <i>J. <span class=SpellE>Geophys</span>. Res</i>., <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1002/2016JA023644, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>111.</span><span
@@ -2427,7 +2496,8 @@ style='font-family:"Calibri",sans-serif'>Testing the current paradigm for space
 weather prediction with heliospheric imagers</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 L.A. Barnard, C.A. de Koning, C.J. Scott, <b>M.J. Owens</b>, J. Wilkinson and
-J.A. Davies, <i>Space Weather</i>, doi: 10.1002/2017SW001609, 2017</span></p>
+J.A. Davies, <i>Space Weather</i>, <span class=SpellE>doi</span>:
+10.1002/2017SW001609, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>110.</span><span
@@ -2446,8 +2516,9 @@ href="https://academic.oup.com/astrogeo/article/58/2/2.17/3074082"><span
 style='font-family:"Calibri",sans-serif'>Frost fairs, sunspots and the Little
 Ice Age</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M. Owens</b>, E. Hawkins, G. Jones and I. Usoskin, <i>Astron.
-&amp; Geophys</i>.,</span>&nbsp; <span style='font-family:"Calibri",sans-serif'>58
-(2): 2.17-2.23, doi:10.1093/astrogeo/atx057,&nbsp; 2017</span></p>
+&amp; <span class=SpellE>Geophys</span></i>.,</span>&nbsp; <span
+style='font-family:"Calibri",sans-serif'>58 (2): 2.17-2.23, doi:10.1093/<span
+class=SpellE>astrogeo</span>/atx057,&nbsp; 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>108.</span><span
@@ -2455,8 +2526,8 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/astrogeo/article/58/2/2.12/3074081"><span
 style='font-family:"Calibri",sans-serif'>The space environment before the space
 age</span></a><span style='font-family:"Calibri",sans-serif'><br>
-L. Barnard, <b>M. Owens</b> and C. Scott, <i>Astron. &amp; Geophys</i>., 58
-(2): 2.12-2.16, doi:10.1093/astrogeo/atx056, 2017</span></p>
+L. Barnard, <b>M. Owens</b> and C. Scott, <i>Astron. &amp; <span class=SpellE>Geophys</span></i>.,
+58 (2): 2.12-2.16, doi:10.1093/<span class=SpellE>astrogeo</span>/atx056, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>107.</span><span
@@ -2467,8 +2538,9 @@ Solar Wind using Simple Pattern Recognition</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 P. Riley, M. Ben Nun, <b>M.J. Owens</b> and T.S. Horbury, <i>Space Weather</i>,</span><span
 style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#333333;
-background:white'> </span><span style='font-family:"Calibri",sans-serif'>doi:</span>
-<span style='font-family:"Calibri",sans-serif'>10.1002/2016SW001589, 2017</span></p>
+background:white'> </span><span class=SpellE><span style='font-family:"Calibri",sans-serif'>doi</span></span><span
+style='font-family:"Calibri",sans-serif'>:</span> <span style='font-family:
+"Calibri",sans-serif'>10.1002/2016SW001589, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>106.</span><span
@@ -2477,9 +2549,10 @@ href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx190"><s
 style='font-family:"Calibri",sans-serif'>Assessment of different sunspot number
 series using the cosmogenic isotope <sup>44</sup>Ti in meteorites</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-E. Asvestari, I.G. Usoskin, G.A. Kovaltsov, <b>M.J. Owens</b>, N.A. Krivova and
-C. Taricco, <i>MNRAS</i>,</span> <span style='font-family:"Calibri",sans-serif'>467
-(2): 1608-1613, doi:10.1093/mnras/stx190, 2017</span></p>
+E. <span class=SpellE>Asvestari</span>, I.G. Usoskin, G.A. <span class=SpellE>Kovaltsov</span>,
+<b>M.J. Owens</b>, N.A. Krivova and C. <span class=SpellE>Taricco</span>, <i>MNRAS</i>,</span>
+<span style='font-family:"Calibri",sans-serif'>467 (2): 1608-1613, doi:10.1093/<span
+class=SpellE>mnras</span>/stx190, 2017</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>105.</span><span
@@ -2501,8 +2574,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JA023023"><sp
 style='font-family:"Calibri",sans-serif'>Magnetic field inversions at 1 AU:
 Comparisons between mapping predictions and observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-B. Li, I.H. Cairns, <b>M.J. Owens</b>, D. Neudegg, V.V. Lobzin and G. Steward, <i>J.
-Geophys. Res</i>., 121, 10, 728&#8211;10, 743, doi:10.1002/2016JA023023, 2016</span></p>
+B. Li, I.H. Cairns, <b>M.J. Owens</b>, D. <span class=SpellE>Neudegg</span>,
+V.V. <span class=SpellE>Lobzin</span> and G. Steward, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 121, 10, 728&#8211;10, 743, doi:10.1002/2016JA023023, 2016</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>103.</span><span
@@ -2522,8 +2596,9 @@ style='font-family:"Calibri",sans-serif'>Near-Earth Heliospheric Magnetic Field
 Intensity Since 1800. Part 2: Cosmogenic Radionuclide Reconstructions</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, E. Cliver, K.G. McCracken, J. Beer, L. Barnard, M. Lockwood,
-A. Rouillard, D. Passos, P. Riley, I. Usoskin, Y-M. Wang, <i>J. Geophys. Res</i>.,
-121, 7, 6064-6074, doi:10.1002/2016JA022550, 2016 </span></p>
+A. Rouillard, D. Passos, P. Riley, I. Usoskin, Y-M. Wang, <i>J. <span
+class=SpellE>Geophys</span>. Res</i>., 121, 7, 6064-6074,
+doi:10.1002/2016JA022550, 2016 </span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>101.</span><span
@@ -2533,8 +2608,9 @@ style='font-family:"Calibri",sans-serif'>Near-Earth Heliospheric Magnetic Field
 Intensity Since 1800. Part 1: Geomagnetic and Sunspot Reconstructions</span></a><span
 style='font-family:"Calibri",sans-serif'> <br>
 <b>M.J. Owens</b>, E. Cliver, K.G. McCracken, J. Beer, L. Barnard, M. Lockwood,
-A. Rouillard, D. Passos, P. Riley, I. Usoskin, Y-M. Wang, <i>J. Geophys. Res</i>.,
-121, 7, 6048-6063, doi:10.1002/2016JA022529, 2016</span></p>
+A. Rouillard, D. Passos, P. Riley, I. Usoskin, Y-M. Wang, <i>J. <span
+class=SpellE>Geophys</span>. Res</i>., 121, 7, 6048-6063,
+doi:10.1002/2016JA022529, 2016</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-1.0cm'><span style='font-family:"Calibri",sans-serif'>100.</span><span
@@ -2543,8 +2619,8 @@ href="http://onlinelibrary.wiley.com/doi/10.1002/2016SW001375/epdf"><span
 style='font-family:"Calibri",sans-serif'>On the origins and timescales of
 geoeffective IMF</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L.A. Barnard, S. Bentley, C.J. Scott and C.E.
-Watt, <i>Space Weather</i>, 14, 406&#8211;432, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.1002/2016SW001375, 2016</span></p>
+Watt, <i>Space Weather</i>, 14, 406&#8211;432, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1002/2016SW001375, 2016</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-21.25pt'><span style='font-family:"Calibri",sans-serif'>99.</span><span
@@ -2552,9 +2628,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/0004-637X/824/1/54"><span
 style='font-family:"Calibri",sans-serif'>An assessment of sunspot number data
 composites: 1845-2014</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, <b>M.J. Owens</b>, L. Barnard and I.G. Usoskin, <i>Astrophys. J</i>.,
-824, 52, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.3847/0004-637X/824/1/54,
-2016</span></p>
+M. Lockwood, <b>M.J. Owens</b>, L. Barnard and I.G. Usoskin, <span
+class=SpellE><i>Astrophys</i></span><i>. J</i>., 824, 52, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.3847/0004-637X/824/1/54, 2016</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-21.25pt'><span style='font-family:"Calibri",sans-serif'>98.</span><span
@@ -2583,7 +2659,7 @@ style='font-family:"Calibri",sans-serif'>Tests of sunspot number sequences: 3.
 Effects of regression procedures on the calibration of historic sunspot data</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L.A. Barnard and I.G. Usoskin, <i>Sol. Phys.</i>,
-p.1-13, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-015-0829-2,
+p.1-13, <span class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-015-0829-2,
 2016</span></p>
 
 <p class=section1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
@@ -2592,9 +2668,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-016-0913-2"><span
 style='font-family:"Calibri",sans-serif'>Tests of sunspot number sequences: 2.
 Using geomagnetic and auroral data</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, C.J. Scott, <b>M.J. Owens</b>, L.A. Barnard and H. Nevanlinna, <i>Sol.
-Phys.</i>, 1-18, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-016-0913-2,
-2016</span></p>
+M. Lockwood, C.J. Scott, <b>M.J. Owens</b>, L.A. Barnard and H. <span
+class=SpellE>Nevanlinna</span>, <i>Sol. Phys.</i>, 1-18, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1007/s11207-016-0913-2, 2016</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-21.25pt'><span style='font-family:"Calibri",sans-serif'>94.</span><span
@@ -2602,8 +2678,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://link.springer.com/article/10.1007/s11207-016-0855-8"><span
 style='font-family:"Calibri",sans-serif'>Tests of sunspot number sequences: 1.
 Using ionosonde data</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, C.J. Scott, <b>M.J. Owens</b>, L.A. Barnard and H. Nevanlinna, <i>Sol.
-Phys.</i>, p.1-25,</span> doi: <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-016-0855-8,
+M. Lockwood, C.J. Scott, <b>M.J. Owens</b>, L.A. Barnard and H. <span
+class=SpellE>Nevanlinna</span>, <i>Sol. Phys.</i>, p.1-25,</span> <span
+class=SpellE>doi</span>: <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-016-0855-8,
 2016</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
@@ -2612,8 +2689,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://iopscience.iop.org/article/10.3847/0004-637X/818/2/197"><span
 style='font-family:"Calibri",sans-serif'>Do the legs of magnetic clouds contain
 twisted flux-rope magnetic fields?</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, <i>Astrophys. J</i>., 818, 197, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.3847/0004-637X/818/2/197, 2016</span></p>
+<b>M.J. Owens</b>, <span class=SpellE><i>Astrophys</i></span><i>. J</i>., 818,
+197, <span class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.3847/0004-637X/818/2/197,
+2016</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-21.25pt'><span style='font-family:"Calibri",sans-serif'>92.</span><span
@@ -2622,8 +2700,9 @@ href="https://link.springer.com/article/10.1007/s11207-015-0838-1"><span
 style='font-family:"Calibri",sans-serif'>A new calibrated sunspot group series
 since 1749: Statistics of active day fractions</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-I.G. Usoskin, G.A. Kovaltsov, M. Lockwood, K. Mursula, <b>M. Owens</b> and S.K.
-Solanki, <i>Sol. Phys.</i>, p.1-24, doi:10.1007/s11207-015-0838-1, 2016</span></p>
+I.G. Usoskin, G.A. <span class=SpellE>Kovaltsov</span>, M. Lockwood, K. <span
+class=SpellE>Mursula</span>, <b>M. Owens</b> and S.K. Solanki, <i>Sol. Phys.</i>,
+p.1-24, doi:10.1007/s11207-015-0838-1, 2016</span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2015</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -2636,19 +2715,20 @@ style='font-family:"Calibri",sans-serif'>Lightning as a space-weather hazard:
 UK thunderstorm activity modulated by the passage of the heliospheric current
 sheet</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, C.J. Scott, A. Bennett, S.R. Thomas, M. Lockwood, R.G.
-Harrison and M.M. Lam, <i>Geophys. Res. Lett</i>., 42, 9624,
-doi:10.1002/2015GL066802, 2015</span></p>
+Harrison and M.M. Lam, <span class=SpellE><i>Geophys</i></span><i>. Res. Lett</i>.,
+42, 9624, doi:10.1002/2015GL066802, 2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>90.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015SW001280"><span
 style='font-family:"Calibri",sans-serif'>Differences between the CME fronts
-identified and tracked by an expert, an automated algorithm and the Solar
-Stormwatch project</span></a><span style='font-family:"Calibri",sans-serif'><br>
+identified and tracked by an expert, an automated algorithm and the Solar <span
+class=SpellE>Stormwatch</span> project</span></a><span style='font-family:"Calibri",sans-serif'><br>
 L. Barnard, C. Scott, <b>M. Owens</b>, M. Lockwood, S. Crothers, J. Davies and
-R. Harrison, 13, 10, 709-725, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1002/2015SW001280,
-<i>Space Weather</i>, 2015</span></p>
+R. Harrison, 13, 10, 709-725, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1002/2015SW001280, <i>Space Weather</i>,
+2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>89.</span><span
@@ -2658,7 +2738,8 @@ style='font-family:"Calibri",sans-serif'>The heliospheric Hale cycle over the
 last 300 years and its implications for a &#8220;lost&#8221; late 18th century
 solar cycle</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>, K.G. McCracken, M. Lockwood, L. Barnard, <i>J. Space Weather
-Space Clim., </i>5, A30, doi:10.1051/swsc/2015032, 2015</span></p>
+Space Clim., </i>5, A30, doi:10.1051/<span class=SpellE>swsc</span>/2015032,
+2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>88.</span><span
@@ -2667,20 +2748,22 @@ href="https://www.aanda.org/articles/aa/full_html/2015/09/aa26652-15/aa26652-15.
 style='font-family:"Calibri",sans-serif'>The Maunder minimum (1645-1715) was
 indeed a Grand minimum: A reassessment of multiple datasets</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-I.G. Usoskin, R. Arlt, E. Asvestrari, E. Hawkins, M. Kapyla, G.A. Kovaltsov, N.
-Krivova, M. Lockwood, K. Mursula, J. O&#8217;Reilly, <b>M. Owens</b>, C.J.
-Scott, D.D. Sokoloff, S.K. Solanki, W. Soon and J.M. Vaquero, <i>Astron.
-Astrophys</i>., 581, 19, A95, doi:10.1051/0004-6361/201526652, 2015</span></p>
+I.G. Usoskin, R. Arlt, E. <span class=SpellE>Asvestrari</span>, E. Hawkins, M.
+Kapyla, G.A. <span class=SpellE>Kovaltsov</span>, N. Krivova, M. Lockwood, K. <span
+class=SpellE>Mursula</span>, J. O&#8217;Reilly, <b>M. Owens</b>, C.J. Scott,
+D.D. Sokoloff, S.K. Solanki, W. Soon and J.M. Vaquero, <i>Astron. <span
+class=SpellE>Astrophys</span></i>., 581, 19, A95,
+doi:10.1051/0004-6361/201526652, 2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>87.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/astrogeo/article/56/4/4.20/210016"><span
-style='font-family:"Calibri",sans-serif'>Solar Stormwatch: tracking solar
-eruptions</span></a><span style='font-family:"Calibri",sans-serif'><br>
+style='font-family:"Calibri",sans-serif'>Solar <span class=SpellE>Stormwatch</span>:
+tracking solar eruptions</span></a><span style='font-family:"Calibri",sans-serif'><br>
 L. Barnard, C. Scott, <b>M. Owens</b>, M. Lockwood, K. Tucker-Hood, J.
-Wilkinson, B. Harder and E. Beaton, <i>Astron. Geophys.</i>, 56, 4, p20-24,
-2015</span></p>
+Wilkinson, B. Harder and E. Beaton, <i>Astron. <span class=SpellE>Geophys</span>.</i>,
+56, 4, p20-24, 2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>86.</span><span
@@ -2691,8 +2774,8 @@ Corona and Inner Heliosphere during the Maunder Minimum using Global
 Thermodynamic MHD Simulations</span></a><span style='font-family:"Calibri",sans-serif'><br>
 P. Riley, R. Lionello, J.A. Linker, E. Cliver, A. Balogh, J. Beer, P.
 Charbonneau, N. Crooker, M. DeRosa, M. Lockwood, <b>M. Owens</b>, K. McCracken,
-I. Usoskin and S. Koutchmy, <i>Astrophys. J</i>., 802, 105,
-doi:10.1088/0004-637X/802/2/105, 2015</span></p>
+I. Usoskin and S. <span class=SpellE>Koutchmy</span>, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 802, 105, doi:10.1088/0004-637X/802/2/105, 2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2702,15 +2785,16 @@ href="https://iopscience.iop.org/article/10.1088/0004-637X/801/1/5"><span
 style='font-family:"Calibri",sans-serif'>Near-Earth cosmic ray decreases
 associated with remote coronal mass ejections</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-S.R. Thomas, <b>M.J. Owens</b>, M. Lockwood, L. Barnard and C.J. Scott, <i>Astrophys.
-J.</i>, 801, 5, doi:10.1088/0004-637X/801/1/5, 2015</span></p>
+S.R. Thomas, <b>M.J. Owens</b>, M. Lockwood, L. Barnard and C.J. Scott, <span
+class=SpellE><i>Astrophys</i></span><i>. J.</i>, 801, 5,
+doi:10.1088/0004-637X/801/1/5, 2015</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>84.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014SW001106"><span
-style='font-family:"Calibri",sans-serif'>Validation of a priori CME arrival
-predictions made using real-time heliospheric imager observations</span></a><span
+style='font-family:"Calibri",sans-serif'>Validation of a priori CME arrival predictions
+made using real-time heliospheric imager observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 K. Tucker-Hood, C. Scott, <b>M. Owens</b>, D. Jackson, L. Barnard, J.A. Davies,
 S. Crothers, R. Simpson, N.P. Savani, J. Wilkinson, B. Harder, G.M. Eriksson,
@@ -2724,9 +2808,11 @@ line-height:115%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JA020628"><span
 style='font-family:"Calibri",sans-serif'>Statistical analysis of magnetic cloud
 erosion by magnetic reconnection</span></a><span style='font-family:"Calibri",sans-serif'><br>
-A. Ruffenach, B. Lavraud, C. J. Farrugia, P. D&eacute;moulin, S. Dasso, <b>M.
-J. Owens</b>, J.-A. Sauvaud, A. P. Rouillard, A. Lynnyk, C. Foullon, N. P.
-Savani, and J. G. Luhmann, <i>J. Geophys. Res</i>., 120, 43&#8211;60,
+A. Ruffenach, B. <span class=SpellE>Lavraud</span>, C. J. Farrugia, P. <span
+class=SpellE>D&eacute;moulin</span>, S. Dasso, <b>M. J. Owens</b>, J.-A. <span
+class=SpellE>Sauvaud</span>, A. P. Rouillard, A. <span class=SpellE>Lynnyk</span>,
+C. <span class=SpellE>Foullon</span>, N. P. Savani, and J. G. Luhmann, <i>J. <span
+class=SpellE>Geophys</span>. Res</i>., 120, 43&#8211;60,
 doi:10.1002/2014JA020628, 2015</span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
@@ -2736,14 +2822,14 @@ mso-ansi-language:X-NONE'>2014</span><span style='mso-fareast-font-family:"Times
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>82.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014SW001119"><span
-style='font-family:"Calibri",sans-serif'>The Solar Stormwatch CME catalogue:
-Results from the first space weather citizen science project</span></a><span
+style='font-family:"Calibri",sans-serif'>The Solar <span class=SpellE>Stormwatch</span>
+CME catalogue: Results from the first space weather citizen science project</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 L. Barnard, C. Scott, <b>M. Owens</b>, M. Lockwood, K. Tucker-Hood, S. Thomas,
 S. Crothers, J. Davies, R. Harrison, C. Lintott, A. Smith, R. Simpson, N.
 Waterson, J. O&#8217;Donnell, S. Bamford, F. Romeo, M. Kukula, N. Savani, J.
-Wilkinson, E. Baeten, L. Poeffel and B. Harder, <i>Space Weather</i>, 12,
-657&#8211;674, doi:10.1002/2014SW001119, 2014 </span></p>
+Wilkinson, E. Baeten, L. <span class=SpellE>Poeffel</span> and B. Harder, <i>Space
+Weather</i>, 12, 657&#8211;674, doi:10.1002/2014SW001119, 2014 </span></p>
 
 <p class=section1 style='margin-top:5.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>81.</span><span
@@ -2751,8 +2837,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://academic.oup.com/astrogeo/article/55/5/5.23/184278"><span
 style='font-family:"Calibri",sans-serif'>Galactic cosmic rays in the
 heliosphere</span></a><span style='font-family:"Calibri",sans-serif'><br>
-S.R. Thomas, <b>M.J. Owens</b> and M. Lockwood, <i>Astron. &amp; Geophys</i>, <i>55</i>
-(5), 5.23-5.25, doi:10.1093/astrogeo/atu214, 2014 </span></p>
+S.R. Thomas, <b>M.J. Owens</b> and M. Lockwood, <i>Astron. &amp; <span
+class=SpellE>Geophys</span></i>, <i>55</i> (5), 5.23-5.25, doi:10.1093/<span
+class=SpellE>astrogeo</span>/atu214, 2014 </span></p>
 
 <p class=section1 style='margin-top:5.0pt;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>80.</span><span
@@ -2771,8 +2858,9 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&n
 href="https://www.sciencedirect.com/science/article/abs/pii/S0032063314002335?via%3Dihub">The
 science case for an orbital mission to Uranus: Exploring the origins and
 evolution of ice giant planets</a><br>
-C.S. Arridge et al. (including <b>M.J. Owens</b>), Planet. Space Sci., 104,
-122-140, doi:10.1016/j.pss.2014.08.009, 2014</p>
+C.S. <span class=SpellE>Arridge</span> et al. (including <b>M.J. Owens</b>),
+Planet. Space Sci., 104, 122-140, <span class=GramE>doi:10.1016/j.pss</span>.2014.08.009,
+2014</p>
 
 <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-24.55pt'>78.<span style='font-size:7.0pt;
@@ -2781,8 +2869,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&n
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JA019973">Centennial
 variations in sunspot number, open solar flux and streamer belt width: 3.
 Modelling</a><br>
-M. Lockwood and <b>M.J. Owens</b>, <i>J. Geophys. Res</i>., 119,
-doi:10.1002/2014JA019973, 2014</p>
+M. Lockwood and <b>M.J. Owens</b>, <i>J. <span class=SpellE>Geophys</span>. Res</i>.,
+119, doi:10.1002/2014JA019973, 2014</p>
 
 <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-24.55pt'>77.<span style='font-size:7.0pt;
@@ -2791,8 +2879,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&n
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JA019972">Centennial
 variations in sunspot number, open solar flux and streamer belt width: 2.
 Comparison with geomagnetic data</a> <br>
-M. Lockwood, <b>M.J. Owens</b>, L. Barnard, <i>J. Geophys. Res</i>., 119,
-doi:10.1002/2014JA019972, 2014</p>
+M. Lockwood, <b>M.J. Owens</b>, L. Barnard, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 119, doi:10.1002/2014JA019972, 2014</p>
 
 <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
 6.0pt;margin-left:42.55pt;text-indent:-24.55pt'>76.<span style='font-size:7.0pt;
@@ -2801,8 +2889,8 @@ line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&n
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JA019970">Centennial
 variations in sunspot number, open solar flux and streamer belt width: 1.
 Correction of the sunspot number record since 1874</a><br>
-M. Lockwood, <b>M.J. Owens</b>, L. Barnard, <i>J. Geophys. Res</i>., 119,
-doi:10.1002/2014JA019970, 2014</p>
+M. Lockwood, <b>M.J. Owens</b>, L. Barnard, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 119, doi:10.1002/2014JA019970, 2014</p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2812,8 +2900,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JA020079"><span
 style='font-family:"Calibri",sans-serif'>Comparison of interplanetary
 signatures of streamers and pseudostreamers</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-N.U. Crooker, R.L. McPherron and <b>M.J. Owens</b>, <i>J. Geophys. Res</i>.,
-119, 4157&#8211;4163, doi:10.1002/2014JA020079, 2014</span></p>
+N.U. Crooker, R.L. McPherron and <b>M.J. Owens</b>, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 119, 4157&#8211;4163, doi:10.1002/2014JA020079, 2014</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2855,9 +2943,9 @@ style='font-family:"Calibri",sans-serif'>Reconstruction of Geomagnetic Activity
 and Near-Earth Interplanetary Conditions over the Past 167 Years: 4. Near-Earth
 Solar Wind Speed, IMF, and Open Solar Flux</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-M. Lockwood, H. Nevanlinna, L. Barnard, <b>M.J. Owens</b>, R.G. Harrison, A.P
-Rouillard, and C.J. Scott, <i>Ann. Geophys., </i>32, 383&#8211;399,
-doi:10.5194/angeo-32-383-2014, 2014</span></p>
+M. Lockwood, H. <span class=SpellE>Nevanlinna</span>, L. Barnard, <b>M.J. Owens</b>,
+R.G. Harrison, A.P Rouillard, and C.J. Scott, <i>Ann. <span class=SpellE>Geophys</span>.,
+</i>32, 383&#8211;399, doi:10.5194/angeo-32-383-2014, 2014</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>70.</span><span
@@ -2866,8 +2954,9 @@ href="https://angeo.copernicus.org/articles/32/367/2014/"><span
 style='font-family:"Calibri",sans-serif'>Reconstruction of Geomagnetic Activity
 and Near-Earth Interplanetary Conditions over the Past 167 Years: 3. Improved
 representation of solar cycle 11</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, H. Nevanlinna, M. Vokhmyanin, D. Ponyavin, S. Sokolov, L. Barnard,
-<b>M.J. Owens</b>, R.G. Harrison, A.P. Rouillard, and C.J. Scott, <i>Ann. Geophys.,
+M. Lockwood, H. <span class=SpellE>Nevanlinna</span>, M. <span class=SpellE>Vokhmyanin</span>,
+D. <span class=SpellE>Ponyavin</span>, S. Sokolov, L. Barnard, <b>M.J. Owens</b>,
+R.G. Harrison, A.P. Rouillard, and C.J. Scott, <i>Ann. <span class=SpellE>Geophys</span>.,
 </i>32, 367&#8211;381, doi:10.5194/angeo-32-367-2014, 2014</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
@@ -2878,8 +2967,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013JA019412"><sp
 style='font-family:"Calibri",sans-serif'>Solar cycle evolution of the dipolar
 and pseudostreamer belts and their relation to the slow solar wind</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood, <i>J. Geophys. Res</i>., 119,</span>
-36-46, <span style='font-family:"Calibri",sans-serif'>doi:10.1002/2013JA019412,
+<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 119,</span> 36-46, <span style='font-family:"Calibri",sans-serif'>doi:10.1002/2013JA019412,
 2014</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
@@ -2890,9 +2979,9 @@ href="https://iopscience.iop.org/article/10.1088/2041-8205/781/1/L7/meta"><span
 style='font-family:"Calibri",sans-serif'>Implications of the recent low solar
 minimum for the solar wind during the Maunder minimum</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood and <b>M.J. Owens</b>, <i>Astrophys. J. Lett.</i>, 781,</span> <span
-style='font-family:"Calibri",sans-serif'>doi:10.1088/2041-8205/781/1/L7,&nbsp;
-2014</span></p>
+M. Lockwood and <b>M.J. Owens</b>, <span class=SpellE><i>Astrophys</i></span><i>.
+J. Lett.</i>, 781,</span> <span style='font-family:"Calibri",sans-serif'>doi:10.1088/2041-8205/781/1/L<span
+class=GramE>7,&nbsp; 2014</span></span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2917,7 +3006,7 @@ href="https://link.springer.com/article/10.12942/lrsp-2013-5"><span
 style='font-family:"Calibri",sans-serif'>The heliospheric magnetic field</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b> and R.J. Forsyth, <i>Living Reviews in Solar Physics</i>, 10,
-5, doi: 10.12942/lrsp-2013-5, 2013</span></p>
+5, <span class=SpellE>doi</span>: 10.12942/lrsp-2013-5, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2928,9 +3017,9 @@ style='font-family:"Calibri",sans-serif'>Reconstruction of geomagnetic activity
 and near-Earth interplanetary conditions over the past 167 years: 2. A new
 reconstruction of the interplanetary magnetic field</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, L. Barnard, H. Nevanlinna, <b>M.J. Owens</b>, R.G. Harrison, A.P.
-Rouillard and C.J. Davis, <i>Ann. Geophys</i>., 31, 1979-1992, doi:10.5194/angeo-31-1979-2013,
-2013</span></p>
+M. Lockwood, L. Barnard, H. <span class=SpellE>Nevanlinna</span>, <b>M.J. Owens</b>,
+R.G. Harrison, A.P. Rouillard and C.J. Davis, <i>Ann. <span class=SpellE>Geophys</span></i>.,
+31, 1979-1992, doi:10.5194/angeo-31-1979-2013, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2940,9 +3029,9 @@ href="https://angeo.copernicus.org/articles/31/1957/2013/"><span
 style='font-family:"Calibri",sans-serif'>Reconstruction of geomagnetic activity
 and near-Earth interplanetary conditions over the past 167 years: 1. A new
 geomagnetic data composite</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, L. Barnard, H. Nevanlinna, <b>M.J. Owens</b>, R.G. Harrison, A.P.
-Rouillard and C.J. Davis, <i>Ann. Geophys</i>., 31, 1957-1977,
-doi:10.5194/angeo-31-1957-2013, 2013</span></p>
+M. Lockwood, L. Barnard, H. <span class=SpellE>Nevanlinna</span>, <b>M.J. Owens</b>,
+R.G. Harrison, A.P. Rouillard and C.J. Davis, <i>Ann. <span class=SpellE>Geophys</span></i>.,
+31, 1957-1977, doi:10.5194/angeo-31-1957-2013, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2954,8 +3043,8 @@ polarized white light and Faraday rotation to probe the spatial position and
 magnetic field of an interplanetary sheath</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 M. Xiong, J.A. Davies, X. Feng and <b>M.J. Owens</b>, R.A. Harrison, C.J. Davis
-and Y.D. Liu, <i>Astrophys. J</i>., 777, 32, doi:10.1088/0004-637X/777/1/322013,
-2013</span></p>
+and Y.D. Liu, <span class=SpellE><i>Astrophys</i></span><i>. J</i>., 777, 32,
+doi:10.1088/0004-637X/777/1/322013, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:3.0pt;
 margin-left:42.55pt;text-indent:-24.55pt;line-height:115%'><span
@@ -2965,8 +3054,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/jgra.50259"><span
 style='font-family:"Calibri",sans-serif'>Solar origin of heliospheric magnetic
 field inversions: Evidence for coronal loop opening within pseudostreamers</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood, <i>J. Geophys. Res</i>., 118,
-1868&#8211;1879, doi:10.1002/jgra.50259, 2013</span></p>
+<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood, <i>J. <span class=SpellE>Geophys</span>.
+Res</i>., 118, 1868&#8211;1879, doi:10.1002/jgra.50259, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>61.</span><span
@@ -2985,7 +3074,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/jgra.50223"><span
 style='font-family:"Calibri",sans-serif'>Comment on &quot;What causes the flux
 excess in the heliospheric magnetic field?&quot; by E.J. Smith</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood and <b>M.J. Owens</b> <i>J. Geophys. Res</i>., 118,&nbsp; doi:
+M. Lockwood and <b>M.J. Owens</b> <i>J. <span class=SpellE>Geophys</span>. Res</i>.,
+<span class=GramE>118,&nbsp; <span class=SpellE>doi</span></span>:
 10.1002/jgra.50223, 2013 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
@@ -2995,8 +3085,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/swe.20038"><span
 style='font-family:"Calibri",sans-serif'>Tracking the momentum flux of a CME
 and quantifying its influence on geomagnetically induced currents at Earth</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-N.P. Savani, A. Vourlidas, A. Pulkkinen, T. Nieves-Chinchilla, B. Lavraud and <b>M.J.
-Owens</b>, <i>Space Weather</i>, 11, 245&#8211;261, doi:10.1002/swe.20038, 2013</span></p>
+N.P. Savani, A. <span class=SpellE>Vourlidas</span>, A. Pulkkinen, T.
+Nieves-Chinchilla, B. <span class=SpellE>Lavraud</span> and <b>M.J. Owens</b>, <i>Space
+Weather</i>, 11, 245&#8211;261, doi:10.1002/swe.20038, 2013</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>58.</span><span
@@ -3007,8 +3098,8 @@ on white-light imaging of an interplanetary shock:&nbsp; Synthetic observations
 from forward magnetohydrodynamic modelling</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 M. Xiong, J. A. Davies, M. M. Bisi, <b>M. J. Owens</b>, R. A. Fallows, G. D.
-Dorrian, <i>Sol. Phys</i>., doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-012-0047-0,
-2013</span></p>
+Dorrian, <i>Sol. Phys</i>., <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1007/s11207-012-0047-0, 2013</span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2012</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3020,8 +3111,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL053151"><span
 style='font-family:"Calibri",sans-serif'>Heliospheric modulation of galactic
 cosmic rays during grand solar minima: Past and future variations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, I. Usoskin, M. Lockwood, <i>Geophys. Res. Lett</i>, 39,
-L19102, doi:10.1029/2012GL053151, 2012 </span></p>
+<b>M.J. Owens</b>, I. Usoskin, M. Lockwood, <span class=SpellE><i>Geophys</i></span><i>.
+Res. Lett</i>, 39, L19102, doi:10.1029/2012GL053151, 2012 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>56.</span><span
@@ -3030,11 +3121,13 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012JA017624"><span
 style='font-family:"Calibri",sans-serif'>Multi-spacecraft observation of
 magnetic cloud erosion by magnetic reconnection during propagation</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-A. Ruffenach, B. Lavraud, <b>M.J. Owens</b>, J.-A. Sauvaud, N. Savani, A.P.
-Rouillard, P. Demoulin, A. Opitz, A. Fedorov, J. Jacquey, V. Genot, J.G.
-Luhmann, C.T. Russell, C.J. Farrugia, A.B. Galvin and V. Angelopolous, <i>J.
-Geophys. Res</i>.,&nbsp; <i>117</i>, A09101, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.1029/2012JA017624, 2012</span></p>
+A. Ruffenach, B. <span class=SpellE>Lavraud</span>, <b>M.J. Owens</b>, J.-A. <span
+class=SpellE>Sauvaud</span>, N. Savani, A.P. Rouillard, P. Demoulin, A. Opitz,
+A. Fedorov, J. <span class=SpellE>Jacquey</span>, V. <span class=SpellE>Genot</span>,
+J.G. Luhmann, C.T. Russell, C.J. Farrugia, A.B. Galvin and V. <span
+class=SpellE>Angelopolous</span>, <i>J. <span class=SpellE>Geophys</span>. Res</i>.<span
+class=GramE>,&nbsp; <i>117</i></span>, A09101, <span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1029/2012JA017624, 2012</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>55.</span><span
@@ -3043,8 +3136,8 @@ href="https://academic.oup.com/astrogeo/article/53/3/3.9/212817"><span
 style='font-family:"Calibri",sans-serif'>Solar cycle 24: What&#8217;s the Sun
 up to?</span></a><span style='font-family:"Calibri",sans-serif'><br>
 M. Lockwood, <b>M.J. Owens</b>, L. Barnard, C. Davis and S. Thomas, <i>Astron.
-&amp; Geophys.</i>, 53 (3), 3.09-3.15, doi:10.1111/j.1468-4004.2012.53309.x,
-2012</span></p>
+&amp; <span class=SpellE>Geophys</span>.</i>, 53 (3), 3.09-3.15,
+doi:10.1111/j.1468-4004.2012.53309.x, 2012</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>54.</span><span
@@ -3064,8 +3157,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2011JA017193"><span
 style='font-family:"Calibri",sans-serif'>Cyclic loss of open solar flux since
 1868: The link to heliospheric current sheet tilt and implications for the
 Maunder minimum</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b> and M. Lockwood, <i>J. Geophys. Res</i>., <i>117</i>, A04102,
-doi: 10.1029/2011JA017193, 2012</span></p>
+<b>M.J. Owens</b> and M. Lockwood, <i>J. <span class=SpellE>Geophys</span>. Res</i>.,
+<i>117</i>, A04102, <span class=SpellE>doi</span>: 10.1029/2011JA017193, 2012</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>52.</span><span
@@ -3074,8 +3167,9 @@ href="https://link.springer.com/article/10.1007/s11207-012-9939-2"><span
 style='font-family:"Calibri",sans-serif'>Implications of non-cylindrical flux
 ropes for magnetic cloud reconstruction techniques and interpretation of double
 flux-rope events</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, N.P. Savani, B. Lavraud and A. Ruffenach, <i>Sol. Phys</i>.,
-<i>278</i>, 2,&nbsp; 435-446, doi:10.1007/s11207-012-9939-2, 2012</span></p>
+<b>M.J. Owens</b>, N.P. Savani, B. <span class=SpellE>Lavraud</span> and A.
+Ruffenach, <i>Sol. Phys</i>., <i>278</i>, 2,&nbsp; 435-446,
+doi:10.1007/s11207-012-9939-2, 2012</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.55pt'><span style='font-family:"Calibri",sans-serif'>51.</span><span
@@ -3097,8 +3191,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL049811"><sp
 style='font-family:"Calibri",sans-serif'>The Persistence of Solar Activity
 Indicators and the Descent of the Sun into Maunder Minimum Conditions</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, <b>M.J. Owens</b>, L. Barnard, C. Davis and F. Steinhilber, <i>Geophys.
-Res. Lett.</i>, 38, L225105, doi:10.1029/2011GL04981, 2011</span></p>
+M. Lockwood, <b>M.J. Owens</b>, L. Barnard, C. Davis and F. Steinhilber, <span
+class=SpellE><i>Geophys</i></span><i>. Res. Lett.</i>, 38, L225105,
+doi:10.1029/2011GL04981, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>49.</span><span
@@ -3107,8 +3202,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL049328"><sp
 style='font-family:"Calibri",sans-serif'>Solar cycle 24: Implications for
 energetic particles and long-term space climate change</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, M. Lockwood, L. Barnard and C.J. Davis, <i>Geophys. Res.
-Lett.</i>, 38, L19106, doi:10.1029/2011GL049328, 2011</span></p>
+<b>M.J. Owens</b>, M. Lockwood, L. Barnard and C.J. Davis, <span class=SpellE><i>Geophys</i></span><i>.
+Res. Lett.</i>, 38, L19106, doi:10.1029/2011GL049328, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-size:9.5pt;
@@ -3118,8 +3213,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL048489"><sp
 style='font-family:"Calibri",sans-serif'>Predicting space climate change</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 L. Barnard, M. Lockwood, M.A. Hapgood, <b>M.J. Owens</b>, C.J. Davis and F.
-Steinhilber, <i>Geophys. Res. Lett.</i>, 38,&nbsp; L16103,
-doi:10.1029/2011GL048489, 2011</span></p>
+Steinhilber, <span class=SpellE><i>Geophys</i></span><i>. Res. Lett.</i>, <span
+class=GramE>38,&nbsp; L</span>16103, doi:10.1029/2011GL048489, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>47.</span><span
@@ -3128,9 +3223,9 @@ href="https://iopscience.iop.org/article/10.1088/1748-9326/6/3/034004"><span
 style='font-family:"Calibri",sans-serif'>The solar influence on the probability
 of relatively cold UK winters in the future</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-M. Lockwood, R.G. Harrison, <b>M.J. Owens</b>, L. Barnard, T. Woollings and F.
-Steinhilber, <i>Env. Res. Lett</i>., <i>6</i>, pp 034004, doi:
-10.1088/1748-9326/6/3/034004, 2011</span></p>
+M. Lockwood, R.G. Harrison, <b>M.J. Owens</b>, L. Barnard, T. <span
+class=SpellE>Woollings</span> and F. Steinhilber, <i>Env. Res. Lett</i>., <i>6</i>,
+pp 034004, <span class=SpellE>doi</span>: 10.1088/1748-9326/6/3/034004, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>46.</span><span
@@ -3139,8 +3234,8 @@ href="https://link.springer.com/article/10.1007/s11214-011-9748-1"><span
 style='font-family:"Calibri",sans-serif'>Interchange reconnection: Remote
 sensing of solar signature and role in heliospheric magnetic flux budget</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-N.U. Crooker and <b>M.J. Owens</b>, <i>Space Sci. Rev., </i>doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.1007/s11214-011-9748-1, 2011</span></p>
+N.U. Crooker and <b>M.J. Owens</b>, <i>Space Sci. Rev., </i><span class=SpellE>doi</span>:</span>
+<span style='font-family:"Calibri",sans-serif'>10.1007/s11214-011-9748-1, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>45.</span><span
@@ -3148,8 +3243,9 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010JA016039"><span
 style='font-family:"Calibri",sans-serif'>How is open solar magnetic flux lost
 over the solar cycle?</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood,&nbsp; <i>J. Geophys. Res.,</i>
-116, A04111, doi:10.1029/2010JA016039, 2011</span></p>
+<b>M.J. Owens</b>, N.U. Crooker and M. Lockwood,&nbsp; <i>J. <span
+class=SpellE>Geophys</span>. Res.,</i> 116, A04111, doi:10.1029/2010JA016039,
+2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>44.</span><span
@@ -3159,8 +3255,8 @@ style='font-family:"Calibri",sans-serif'>Centennial changes in the heliospheric
 field and open solar flux: the consensus view from geomagnetic data and
 cosmogenic isotopes and its implications</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-M. Lockwood and <b>M.J. Owens</b>, <i>J. Geophys. Res.,</i> 116, A04109,
-doi:10.1029/2010JA016220, 2011</span></p>
+M. Lockwood and <b>M.J. Owens</b>, <i>J. <span class=SpellE>Geophys</span>.
+Res.,</i> 116, A04109, doi:10.1029/2010JA016220, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>43.</span><span
@@ -3169,9 +3265,9 @@ href="https://link.springer.com/article/10.1007/s11207-011-9717-6"><span
 style='font-family:"Calibri",sans-serif'>In Situ Signatures of Interchange
 Reconnection between Magnetic Clouds and Open Magnetic Fields: A Mechanism for
 the Erosion of Polar Coronal Holes?</span></a><span style='font-family:"Calibri",sans-serif'><br>
-B. Lavraud, <b>M.J. Owens</b> and A.P. Rouillard, <i>Sol. Phys., 270</i>,
-285-296, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.1007/s11207-011-9717-6,&nbsp;
-2011</span></p>
+B. <span class=SpellE>Lavraud</span>, <b>M.J. Owens</b> and A.P. Rouillard, <i>Sol.
+Phys., 270</i>, 285-296, <span class=SpellE>doi</span>:</span> <span
+style='font-family:"Calibri",sans-serif'>10.1007/s11207-011-9717-6,&nbsp; 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>42.</span><span
@@ -3181,8 +3277,8 @@ style='font-family:"Calibri",sans-serif'>Evolution of coronal mass ejection
 morphology with increasing heliocentric distance. II. In situ observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 N.P. Savani, <b>M.J. Owens</b>, A.P. Rouillard, R.J. Forsyth, K. Kusano, D.
-Shiota and R. Kataoka, <i>Astrophys. J., </i>732, 117,
-doi:10.1088/0004-637X/32/2/117, 2011</span></p>
+Shiota and R. Kataoka, <span class=SpellE><i>Astrophys</i></span><i>. J., </i>732,
+117, doi:10.1088/0004-637X/32/2/117, 2011</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>41.</span><span
@@ -3192,8 +3288,8 @@ style='font-family:"Calibri",sans-serif'>Evolution of coronal mass ejection
 morphology with increasing heliocentric distance. I. Geometric analysis</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 N.P. Savani, <b>M.J. Owens</b>, A.P. Rouillard, R.J. Forsyth, K. Kusano, D.
-Shiota and R. Kataoka, <i>Astrophys. J.,</i> <i>731,</i> 109,
-doi:10.1088/0004-637X/731/2/109, 2011</span></p>
+Shiota and R. Kataoka, <span class=SpellE><i>Astrophys</i></span><i>. J.,</i> <i>731,</i>
+109, doi:10.1088/0004-637X/731/2/109, 2011</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt;line-height:normal'>40.<span
@@ -3201,10 +3297,11 @@ style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&n
 </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010JA015881">The
 distribution of solar wind speeds during solar minimum: Calibration for
-numerical solar wind modeling constraints on the source of the slow solar wind</a><br>
+numerical solar wind <span class=SpellE>modeling</span> constraints on the
+source of the slow solar wind</a><br>
 S.L. McGregor, W.J. Hughes, C.N. Arge, <strong><span style='font-family:"Calibri",sans-serif'>M.J.
-Owens</span></strong> and D.Odstrcil, <i>J. Geophys. Res, </i>A03101,
-doi:10.1029/2010JA015881, 2011</p>
+Owens</span></strong> and <span class=SpellE>D.Odstrcil</span>, <i>J. <span
+class=SpellE>Geophys</span>. Res, </i>A03101, doi:10.1029/2010JA015881, 2011</p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>39.</span><span
@@ -3235,12 +3332,14 @@ mso-ansi-language:X-NONE'>2010</span><span style='mso-fareast-font-family:"Times
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>37.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010JA015496"><span
-style='font-family:"Calibri",sans-serif'>Suprathermal Electron Flux Peaks at
-Stream Interfaces:&nbsp; Signature of Solar Wind Dynamics or Tracer for Open
-Magnetic Flux Transport on the Sun?</span></a><span style='font-family:"Calibri",sans-serif'>
+class=SpellE><span style='font-family:"Calibri",sans-serif'>Suprathermal</span></span><span
+style='font-family:"Calibri",sans-serif'> Electron Flux Peaks at Stream
+Interfaces:&nbsp; Signature of Solar Wind Dynamics or Tracer for Open Magnetic
+Flux Transport on the Sun?</span></a><span style='font-family:"Calibri",sans-serif'>
 <br>
 N. U. Crooker, E. M. Appleton, N. A. Schwadron and <b>M.J. Owens</b>, <i>J.</i>
-<i>Geophys. Res,</i> <i>115</i>, A11101, doi:10.1029/2010JA015496, 2010</span></p>
+<span class=SpellE><i>Geophys</i></span><i>. Res,</i> <i>115</i>, A11101,
+doi:10.1029/2010JA015496, 2010</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>36.</span><span
@@ -3250,29 +3349,30 @@ style='font-family:"Calibri",sans-serif'>Numerical Simulation of the May 12,
 1997 CME Event - the Role of Magnetic Reconnection</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 O. Cohen, G. Attrill, N. Schwadron, N. Crooker, <b>M. Owens</b>, D. Cooper and
-T. Gombosi, <i>J.</i> <i>Geophys. Res,</i> <i>115</i>, A10104,
-doi:10.1029/2010JA015464, 2010</span></p>
+T. Gombosi, <i>J.</i> <span class=SpellE><i>Geophys</i></span><i>. Res,</i> <i>115</i>,
+A10104, doi:10.1029/2010JA015464, 2010</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt;line-height:normal;text-autospace:none'>35.<span
 style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><a href="https://link.springer.com/article/10.1007/s11207-010-9602-8">From
 the Sun to the Earth: the 13 May 2005 Coronal Mass Ejection</a><br>
-M.M. Bisi, &nbsp;A.R. Breen, B.V. Jackson, R.A. Fallows, A.P. Walsh, Z. Mikic,
-P. Riley, C.J. Owen, A. Gonzalez-Esparza, E. Aguilar-Rodriguez, H. Morgan, E.A.
-Jensen, A.G. Wood, <b>M.J. Owens, </b>M. Tokumaru, P.K. Manoharan, I.V.
-Chashei, A.S. Giunta, J.A. Linker, V.I. Shishov, S.A. Tyulbashev, G. Agalya,
-S.K. Glubokova, &nbsp;M.S. Hamilton, K. Fujiki, P.P. Hick, J.M. Clover and B.
-Pinter, <i>Sol Phys., 265,</i> 49-127,&nbsp; doi:10.1007/s11207-010-9602-8,
-2010</p>
+M.M. Bisi, &nbsp;A.R. Breen, B.V. Jackson, R.A. Fallows, A.P. Walsh, Z. <span
+class=SpellE>Mikic</span>, P. Riley, C.J. Owen, A. Gonzalez-Esparza, E.
+Aguilar-Rodriguez, H. Morgan, E.A. Jensen, A.G. Wood, <b>M.J. Owens, </b>M. <span
+class=SpellE>Tokumaru</span>, P.K. Manoharan, I.V. <span class=SpellE>Chashei</span>,
+A.S. Giunta, J.A. Linker, V.I. Shishov, S.A. <span class=SpellE>Tyulbashev</span>,
+G. Agalya, S.K. <span class=SpellE>Glubokova</span>, &nbsp;M.S. Hamilton, K.
+Fujiki, P.P. Hick, J.M. Clover and B. Pinter, <i>Sol Phys., 265,</i>
+49-127,&nbsp; doi:10.1007/s11207-010-9602-8, 2010</p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>34.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://adsabs.harvard.edu/full/2010ASPC..428..279C"><span
 style='font-family:"Calibri",sans-serif'>Impact of coronal mass ejections,
-interchange reconnection, and disconnection on heliospheric magnetic field strength</span></a><span
-style='font-family:"Calibri",sans-serif'><br>
+interchange reconnection, and disconnection on heliospheric magnetic field
+strength</span></a><span style='font-family:"Calibri",sans-serif'><br>
 N.U. Crooker and <b>M.J. Owens</b>, <i>SOHO-23: Understanding a Peculiar Solar
 Minimum</i>, ASP Conference Series, edited by S. Cranmer, T. Hoeksema, and J.
 Kohl, in press, San Francisco: Astronomical Society of the Pacific, p.279, 2010
@@ -3285,9 +3385,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010SW000567"><sp
 style='font-family:"Calibri",sans-serif'>Galactic cosmic ray hazard in the
 unusual extended solar minimum between solar cycle 23 and 24</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-N.A. Schwadron, A. Boyd, M. Golightly, K. Kozarev, H. Spence, L. Townsend and <b>M.J.
-Owens</b>, <span class=ital><i>Space Weather</i></span>, <span class=ital>8</span>,
-S00E04, doi:10.1029/2010SW000567, 2010</span></p>
+N.A. Schwadron, A. Boyd, M. Golightly, K. <span class=SpellE>Kozarev</span>, H.
+Spence, L. Townsend and <b>M.J. Owens</b>, <span class=ital><i>Space Weather</i></span>,
+<span class=ital>8</span>, S00E04, doi:10.1029/2010SW000567, 2010</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>32.</span><span
@@ -3296,8 +3396,9 @@ href="https://iopscience.iop.org/article/10.1088/2041-8205/714/1/L128"><span
 style='font-family:"Calibri",sans-serif'>Observational evidence of a CME
 distortion directly attributable to a structured solar wind</span></a><span
 style='font-family:"Calibri",sans-serif'> <br>
-N. Savani, <b>M.J. Owens</b>, A.P. Rouillard, R. Forsyth and J.A. Davis, <i>Astrophys.
-J</i>. <i>Lett.,</i> 714, 128-132, doi:10.1088/2041-8205/714/1/L128, 2010</span></p>
+N. Savani, <b>M.J. Owens</b>, A.P. Rouillard, R. Forsyth and J.A. Davis, <span
+class=SpellE><i>Astrophys</i></span><i>. J</i>. <i>Lett.,</i> 714, 128-132,
+doi:10.1088/2041-8205/714/1/L128, 2010</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>31.</span><span
@@ -3306,9 +3407,9 @@ href="https://iopscience.iop.org/article/10.1088/0004-637X/714/2/1617"><span
 style='font-family:"Calibri",sans-serif'>Probing the large-scale topology of
 the heliospheric magnetic field using Jovian electrons</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, T.S. Horbury and C.N. Arge, <i>Astrophys. J</i>., 714, <span
-style='color:black'>1617&#8211;1623, doi:10.1088/0004-637X/714/2/1617</span>,
-2010</span></p>
+<b>M.J. Owens</b>, T.S. Horbury and C.N. Arge, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 714, <span style='color:black'>1617&#8211;1623,
+doi:10.1088/0004-637X/714/2/1617</span>, 2010</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>30.</span><span
@@ -3317,9 +3418,10 @@ href="https://www.sciencedirect.com/science/article/abs/pii/S0273117710001821?vi
 style='font-family:"Calibri",sans-serif'>Cone model-based SEP event scheme for
 applications to multipoint observations</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-J.G. Luhmann, S.A. Ledvina, D. Odstrcil, <b>M.J. Owens</b>, X.-P. Zhao, Y. Liu
-and P.Riley, <i>J.</i> <i>Adv. Space. Res,</i> 46, 1-21,
-doi:10.1016/j.asr.2010.03.011, 2010</span></p>
+J.G. Luhmann, S.A. Ledvina, D. <span class=SpellE>Odstrcil</span>, <b>M.J.
+Owens</b>, X.-P. Zhao, Y. Liu and <span class=SpellE>P.Riley</span>, <i>J.</i> <i>Adv.
+Space. Res,</i> 46, 1-21, <span class=GramE>doi:10.1016/j.asr</span>.2010.03.011,
+2010</span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2009</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3332,7 +3434,7 @@ style='font-family:"Calibri",sans-serif'>The variation of solar wind
 correlation lengths over three solar cycles</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
 R. Wicks, <b>M.J. Owens</b>, T.S. Horbury, <i>Sol. Phys</i>., 262, 191 &#8211;
-198, doi: 10.1007/s11207-010-9509-4, 2009</span></p>
+198, <span class=SpellE>doi</span>: 10.1007/s11207-010-9509-4, 2009</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt;line-height:normal;text-autospace:none'>28.<span
@@ -3341,18 +3443,19 @@ style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&n
 width of a Coronal Mass Ejection between 0.1 and 0.4AU estimated from the
 Heliospheric Imager on STEREO</a><b><span style='font-size:17.0pt'><br>
 </span></b>N. Savani, A.P. Rouillard, R.J. Forsyth, <b>M.J. Owens</b> and J.A.
-Davies, <i>Ann. Geophys.,</i> 27, 4349&#8211;4358,<span style='font-size:10.0pt;
-font-family:"Times New Roman",serif'> </span>2009</p>
+Davies, <i>Ann. <span class=SpellE>Geophys</span>.,</i> 27, 4349&#8211;4358,<span
+style='font-size:10.0pt;font-family:"Times New Roman",serif'> </span>2009</p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>27.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://angeo.copernicus.org/articles/27/4057/2009/"><span
 style='font-family:"Calibri",sans-serif'>The expected imprint of flux rope
-geometry on suprathermal electrons in magnetic clouds</span></a><span
+geometry on <span class=SpellE>suprathermal</span> electrons in magnetic clouds</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
-N.U. Crooker, T.S. Horbury, <i>Ann. Geophys.,</i> 27, 4057-4067, 2009</span></p>
+N.U. Crooker, T.S. Horbury, <i>Ann. <span class=SpellE>Geophys</span>.,</i> 27,
+4057-4067, 2009</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>26.</span><span
@@ -3369,8 +3472,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009JA014449"><span
 style='font-family:"Calibri",sans-serif'>Excess open solar magnetic flux from
 satellite data: I. Analysis of the 3<sup>rd</sup> perihelion Ulysses pass</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, <b>M.J Owens</b>, and A.P. Rouillard, <i>J.</i> <i>Geophys. Res,</i>
-114, A11103, doi:10.1029/2009JA014449, 2009 </span></p>
+M. Lockwood, <b>M.J Owens</b>, and A.P. Rouillard, <i>J.</i> <span
+class=SpellE><i>Geophys</i></span><i>. Res,</i> 114, A11103,
+doi:10.1029/2009JA014449, 2009 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>24.</span><span
@@ -3379,8 +3483,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2009JA014450"><sp
 style='font-family:"Calibri",sans-serif'>Excess open solar magnetic flux from
 satellite data: II. A survey of kinematic effects</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood, <b>M.J. Owens</b>, and A.P. Rouillard, <i>J.</i> <i>Geophys. Res,</i>
-114, A11104, doi:10.1029/2009JA014450, 2009</span></p>
+M. Lockwood, <b>M.J. Owens</b>, and A.P. Rouillard, <i>J.</i> <span
+class=SpellE><i>Geophys</i></span><i>. Res,</i> 114, A11104,
+doi:10.1029/2009JA014450, 2009</span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>23.</span><span
@@ -3389,8 +3494,8 @@ href="https://iopscience.iop.org/article/10.1088/0004-637X/701/2/964"><span
 style='font-family:"Calibri",sans-serif'>The accuracy of using the Ulysses
 result of the spatial invariance of the radial heliospheric field to compute
 the open solar flux</span></a><span style='font-family:"Calibri",sans-serif'><br>
-M. Lockwood and <b>M.J. Owens</b>, <i>Astrophys. J</i>., 701, 964-973,
-doi:10.1088/0004-637X/701/2/964, 2009 </span></p>
+M. Lockwood and <b>M.J. Owens</b>, <span class=SpellE><i>Astrophys</i></span><i>.
+J</i>., 701, 964-973, doi:10.1088/0004-637X/701/2/964, 2009 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>22.</span><span
@@ -3414,8 +3519,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JA013589"><span
 style='font-family:"Calibri",sans-serif'>Combining remote and in situ
 observations of coronal mass ejections to better constrain magnetic cloud
 reconstruction</span></a><span style='font-family:"Calibri",sans-serif'> <br>
-<b>M.J. Owens</b>, <i>J. Geophys. Res.</i>, 113, A12102,
-doi:10.1029/2008JA013589, 2008 </span></p>
+<b>M.J. Owens</b>, <i>J. <span class=SpellE>Geophys</span>. Res.</i>, 113,
+A12102, doi:10.1029/2008JA013589, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><a name="_Hlk169284810"><span
@@ -3426,8 +3531,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008JA013677"><sp
 style='font-family:"Calibri",sans-serif'>Estimating total heliospheric magnetic
 flux from single-point in situ measurements</span></a><span style='font-family:
 "Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, C.N.Arge, N.U. Crooker, N.A. Schwadron and&nbsp;T.S.
-Horbury, <i>J. Geophys. Res.</i>, 113, A12103, doi:10.1029/2008JA013677, 2008 </span></p>
+<b>M.J. Owens</b>, <span class=SpellE>C.N.Arge</span>, N.U. Crooker, N.A.
+Schwadron and&nbsp;T.S. Horbury, <i>J. <span class=SpellE>Geophys</span>. Res.</i>,
+113, A12103, doi:10.1029/2008JA013677, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>19.</span><span
@@ -3437,18 +3543,19 @@ style='font-family:"Calibri",sans-serif'>Conservation of open solar magnetic
 flux and the floor in the heliospheric magnetic field</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <b>M.J. Owens</b>,&nbsp;N.U. Crooker, N.A. Schwadron, T.S. Horbury, S. Yashiro,
-H. Xie, O.C. St Cyr and N, Gopalswamy, <i>Geophys. Res. Lett.</i>, L20108,
-doi:10.1029/2008GL035813, 2008 </span></p>
+H. Xie, O.C. St Cyr and N, Gopalswamy, <span class=SpellE><i>Geophys</i></span><i>.
+Res. Lett.</i>, L20108, doi:10.1029/2008GL035813, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>18.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JA013294"><span
-style='font-family:"Calibri",sans-serif'>Suprathermal electron evolution in a
-Parker spiral magnetic field</span></a><span style='font-family:"Calibri",sans-serif'><br>
+class=SpellE><span style='font-family:"Calibri",sans-serif'>Suprathermal</span></span><span
+style='font-family:"Calibri",sans-serif'> electron evolution in a Parker spiral
+magnetic field</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
-N.U. Crooker and N.A. Schwadron, <i>J. Geophys. Res.</i>, <i>113</i>, A11104,
-doi:10.1029/2008JA013294, 2008 </span></p>
+N.U. Crooker and N.A. Schwadron, <i>J. <span class=SpellE>Geophys</span>. Res.</i>,
+<i>113</i>, A11104, doi:10.1029/2008JA013294, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>17.</span><span
@@ -3457,7 +3564,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008GL034493"><span
 style='font-family:"Calibri",sans-serif'>The ambient solar wind's effect on
 ICME transit times</span></a><span style='font-family:"Calibri",sans-serif'><br>
 A.W. Case, H.E. Spence, <strong><span style='font-family:"Calibri",sans-serif'>M.J.
-Owens</span></strong>, P. Riley and D. Odstrcil, <i>Geophys. Res. Lett.</i>, <em><span
+Owens</span></strong>, P. Riley and D. <span class=SpellE>Odstrcil</span>, <span
+class=SpellE><i>Geophys</i></span><i>. Res. Lett.</i>, <em><span
 style='font-family:"Calibri",sans-serif'>35</span></em>, L15105,
 doi:10.1029/2008GL034493, 2008 </span></p>
 
@@ -3472,8 +3580,8 @@ models: Comparison of empirical, hybrid and physics-based schemes with 8-years
 of L1 observations</span></a><span style='font-family:"Calibri",sans-serif'> <br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
 H.E. Spence, S. McGregor, W.J. Hughes, J.M. Quinn, C.N. Arge, P. Riley, J.
-Linker and D. Odstrcil, <i>Space Weather, 6</i>, S08001,
-doi:10.1029/2007SW000380, 2008 </span></p>
+Linker and D. <span class=SpellE>Odstrcil</span>, <i>Space Weather, 6</i>,
+S08001, doi:10.1029/2007SW000380, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>15.</span><span
@@ -3483,8 +3591,8 @@ style='font-family:"Calibri",sans-serif'>Analysis of the Magnetic Field
 Discontinuity at the PFSS and Schatten Current Sheet Interface in the WSA Model</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 S. McGregor, W.J. Hughes, C. Arge and <strong><span style='font-family:"Calibri",sans-serif'>M.J.
-Owens</span></strong>, <i>J. Geophys. Res.</i>, 113, A08112,
-doi:10.1029/2007JA012330, 2008 </span></p>
+Owens</span></strong>, <i>J. <span class=SpellE>Geophys</span>. Res.</i>, 113,
+A08112, doi:10.1029/2007JA012330, 2008 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>14.</span><span
@@ -3494,8 +3602,8 @@ style='font-family:"Calibri",sans-serif'>The Heliospheric Magnetic Field Over
 the Hale Cycle</span></a><span style='font-family:"Calibri",sans-serif'><br>
 N. Schwadron, <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
 and N. Crooker, <i>Astrophysics and Space Sciences Transactions</i>, <i>4</i>
-(1), 19-26, doi:</span> <span style='font-family:"Calibri",sans-serif'>10.5194/astra-4-19-2008,
-2008 </span></p>
+(1), 19-26, <span class=SpellE>doi</span>:</span> <span style='font-family:
+"Calibri",sans-serif'>10.5194/astra-4-19-2008, 2008 </span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2007</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3515,12 +3623,12 @@ doi:10.1029/2007SW000335, 2007 </span></p>
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>12.</span><span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a
 href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2006JA012159"><span
-style='font-family:"Calibri",sans-serif'>Reconciling the electron
-counterstreaming and dropout occurrence rates with the heliospheric flux budget</span></a><span
-style='font-family:"Calibri",sans-serif'><br>
+style='font-family:"Calibri",sans-serif'>Reconciling the electron <span
+class=SpellE>counterstreaming</span> and dropout occurrence rates with the
+heliospheric flux budget</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>
-and N.U. Crooker, <i>J. Geophys. Res.</i>, <span class=ital>112</span>, A06106,
-doi:10.1029/2006JA012159, 2007 </span></p>
+and N.U. Crooker, <i>J. <span class=SpellE>Geophys</span>. Res.</i>, <span
+class=ital>112</span>, A06106, doi:10.1029/2006JA012159, 2007 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>11.</span><span
@@ -3530,8 +3638,8 @@ style='font-family:"Calibri",sans-serif'>Role of coronal mass ejections in the
 heliospheric Hale cycle<br>
 </span></a><strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong><span
 style='font-family:"Calibri",sans-serif'>, N.A. Schwadron, N.U. Crooker, H.E.
-Spence and W.J. Hughes, <i>Geophys. Res. Lett.</i>, <i>34</i>, L06104, doi:10.1029/2006GL028795,
-2007 </span></p>
+Spence and W.J. Hughes, <span class=SpellE><i>Geophys</i></span><i>. Res. Lett.</i>,
+<i>34</i>, L06104, doi:10.1029/2006GL028795, 2007 </span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2006</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3544,7 +3652,8 @@ style='font-family:"Calibri",sans-serif'>Magnetic cloud distortion resulting
 from propagation through a structured solar wind: Models and observations</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
-<i>J. Geophys. Res., 111,</i> A12109, doi:10.1029/2006JA011903, 2006 </span></p>
+<i>J. <span class=SpellE>Geophys</span>. Res., 111,</i> A12109,
+doi:10.1029/2006JA011903, 2006 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>9.</span><span
@@ -3554,7 +3663,7 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JA011641"><sp
 style='font-family:"Calibri",sans-serif'>Coronal mass ejections and magnetic
 flux buildup in the heliosphere</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>
-and N.U. Crooker,<i> J. Geophys. Res., 111, </i>A10104,
+and N.U. Crooker,<i> J. <span class=SpellE>Geophys</span>. Res., 111, </i>A10104,
 doi:10.1029/2006JA011641, 2006 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
@@ -3565,8 +3674,8 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JA011460"><sp
 style='font-family:"Calibri",sans-serif'>A kinematically-distorted flux-rope
 model for magnetic clouds</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
-V.G. Merkin and P. Riley, <i>J. Geophys. Res.</i>, <i>111</i>, A03104,
-doi:10.1029/2005JA011460, 2006 </span></p>
+V.G. Merkin and P. Riley, <i>J. <span class=SpellE>Geophys</span>. Res.</i>, <i>111</i>,
+A03104, doi:10.1029/2005JA011460, 2006 </span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2005</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3580,8 +3689,8 @@ style='font-family:"Calibri",sans-serif'>An event-based approach to validating
 solar wind speed predictions: High speed enhancements in the Wang-Sheeley-Arge
 model</span></a><span style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>,
-C.N. Arge, H.E. Spence and A. Pembroke, <i>J. Geophys. Res., 110,</i> A12105,
-doi:10.1029/2005JA011343, 2005 </span></p>
+C.N. Arge, H.E. Spence and A. Pembroke, <i>J. <span class=SpellE>Geophys</span>.
+Res., 110,</i> A12105, doi:10.1029/2005JA011343, 2005 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>6.</span><span
@@ -3591,8 +3700,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004JA010814"><sp
 style='font-family:"Calibri",sans-serif'>Characteristic magnetic field and
 speed properties of interplanetary coronal mass ejections and their sheath
 regions</span></a><span style='font-family:"Calibri",sans-serif'><br>
-<b>M.J. Owens</b>, P.J. Cargill, C. Pagel, G.L. Siscoe and N.U. Crooker, <i>J.
-Geophys. Res., 110, </i>A01105, doi:10.1029/2004JA010814, 2005 </span></p>
+<b>M.J. Owens</b>, P.J. Cargill, C. Pagel, G.L. Siscoe and N.U. Crooker, <i>J. <span
+class=SpellE>Geophys</span>. Res., 110, </i>A01105, doi:10.1029/2004JA010814,
+2005 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>5.</span><span
@@ -3602,8 +3712,9 @@ href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004JA010767"><sp
 style='font-family:"Calibri",sans-serif'>Understanding electron heat flux
 signatures in the solar wind</span></a><span style='font-family:"Calibri",sans-serif'><br>
 C. Pagel, N.U. Crooker, D.E. Larson, S.W. Kahler and <strong><span
-style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>, <i>J.
-Geophys. Res</i>., <i>110</i>, A01103, doi:10.1029/2004JA010767, 2005 </span></p>
+style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>, <i>J. <span
+class=SpellE>Geophys</span>. Res</i>., <i>110</i>, A01103,
+doi:10.1029/2004JA010767, 2005 </span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2004</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3616,8 +3727,9 @@ style='font-family:"Calibri",sans-serif'>Non-radial solar wind flows induced by
 the motion of interplanetary coronal mass ejections</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>
-and P. Cargill, <i>Ann. Geophys., 22</i>, 4397-4406, doi:</span> <span
-style='font-family:"Calibri",sans-serif'>10.5194/angeo-22-4397-2004, 2004 </span></p>
+and P. Cargill, <i>Ann. <span class=SpellE>Geophys</span>., 22</i>, 4397-4406, <span
+class=SpellE>doi</span>:</span> <span style='font-family:"Calibri",sans-serif'>10.5194/angeo-22-4397-2004,
+2004 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>3.</span><span
@@ -3630,8 +3742,8 @@ observations of ICMEs including the formation of a Merged Interaction Region</sp
 style='font-family:"Calibri",sans-serif'><br>
 P.G. Hanlon, M.K. Dougherty, R.J. Forsyth, <strong><span style='font-family:
 "Calibri",sans-serif'>M.J. Owens</span></strong>, K.C. Hansen, G. T&oacute;th,
-F.J. Crary and D.T. Young, <i>J. Geophys. Res</i>., <i>109</i>, A09S03,
-doi:10.1029/2003JA010112, 2004 </span></p>
+F.J. Crary and D.T. Young, <i>J. <span class=SpellE>Geophys</span>. Res</i>., <i>109</i>,
+A09S03, doi:10.1029/2003JA010112, 2004 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:42.55pt;text-indent:-24.7pt'><span style='font-family:"Calibri",sans-serif'>2.</span><span
@@ -3641,7 +3753,8 @@ style='font-family:"Calibri",sans-serif'>Predictions of the arrival time of
 Coronal Mass Ejections at 1 AU: an analysis of the causes of errors</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>
-and P. Cargill, <i>Ann. Geophys</i>., <i>22 </i>(2), 661-671, 2004 </span></p>
+and P. Cargill, <i>Ann. <span class=SpellE>Geophys</span></i>., <i>22 </i>(2),
+661-671, 2004 </span></p>
 
 <h2><span lang=X-NONE style='mso-fareast-font-family:"Times New Roman";
 mso-ansi-language:X-NONE'>2002</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
@@ -3655,8 +3768,8 @@ style='font-family:"Calibri",sans-serif'>Correlation of magnetic field
 intensities and solar wind speeds of events observed by ACE</span></a><span
 style='font-family:"Calibri",sans-serif'><br>
 <strong><span style='font-family:"Calibri",sans-serif'>M.J. Owens</span></strong>
-and P.J. Cargill<i>, J. Geophys. Res</i>., <i>107</i> (A5), 1050, doi:10.1029/2001JA000238,
-2002 </span></p>
+and P.J. Cargill<i>, J. <span class=SpellE>Geophys</span>. Res</i>., <i>107</i>
+(A5), 1050, doi:10.1029/2001JA000238, 2002 </span></p>
 
 <p class=section1 style='margin-top:0cm;margin-right:0cm;margin-bottom:4.8pt;
 margin-left:0cm'><span style='font-family:"Calibri",sans-serif'>&nbsp;</span></p>
