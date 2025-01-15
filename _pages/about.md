@@ -45,11 +45,12 @@ Old news is archived [here](/_pages/oldnews.html)
 * [Dechen Gyeltshen](https://research.reading.ac.uk/meteorology/people/dechen-gyeltshen/). Coronal mass ejection dynamics between the Sun and the Earth.
 * [Nathaniel Edward-Inatimi](https://research.reading.ac.uk/meteorology/people/nathaniel-edward-inatimi/). Creating smarter ensembles for probabilistic solar wind forecasting. Met Office CASE award with Dr Mike Marsh and Dr Siegfried Gonzi.
 * [Sarah Watson](https://research.reading.ac.uk/meteorology/people/sarah-watson/). Solar Wind Interactions with Planets and Minor Planetary Bodies. Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/).
-* [Dr Luke Barnard](http://www.met.reading.ac.uk/~yq904481/home/). Solar wind modeling and assimilation of Heliospheric Imager data.
-* [Dr Harriet Turner](https://research.reading.ac.uk/meteorology/people/harriet-turner/) Wolar wind forecasting through data assimilation.
+* [Dr Harriet Turner](https://research.reading.ac.uk/meteorology/people/harriet-turner/) Solar wind forecasting through data assimilation.
+* [Blair McGinness](https://research.reading.ac.uk/meteorology/people/blair-mcginness/) Coronal mass ejection observations and forecasting.
 
 ## Previous postdocs & students
 
+* [Dr Luke Barnard](http://www.met.reading.ac.uk/~yq904481/home/). Solar wind modeling and assimilation of Heliospheric Imager data.
 * [Dr Stephanie Yardley](https://stephyardley.com/). Working on sources of slow solar wind.
 * Dr Anna Frost. Former PhD student, studying solar wind formation through in situ observations. 
 * Dr Lauren James. Former PhD student, studying the evolution of coronal mass ejections in the heliosphere. Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/).
