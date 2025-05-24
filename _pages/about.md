@@ -5,7 +5,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Professor of Space Physics in the [Department of Meteorology](https://research.reading.ac.uk/meteorology/ "Department of Meteorology") and a member of the [Space and Atmospheric Electricity Group (SPATE)](https://research.reading.ac.uk/met-spate/). I am currently an associate editor for [Solar Physics](https://link.springer.com/journal/11207).
+I am a Professor of Space Physics in the [Department of Meteorology](https://research.reading.ac.uk/meteorology/ "Department of Meteorology") and a member of the [Space and Atmospheric Electricity Group (SPATE)](https://research.reading.ac.uk/met-spate/). I am the Research Division Lead for [Earth Observations and Space](https://www.reading.ac.uk/research/themes/theme-environment/rd-earth-observation-and-space).
+
+I am currently an associate editor for [Solar Physics](https://link.springer.com/journal/11207).
 My primary research interests are:
 
  * The heliospheric magnetic field
@@ -16,14 +18,13 @@ My primary research interests are:
  
 ## Recent news
 
+* May 2025: I have a [3-year postdoc position](https://jobs.reading.ac.uk/Job/JobDetail?JobId=24362) available for an STFC project on reconstructing solar activity. Closing date is 4th June.
+* Mar 2025: We welcome a new PhD student to the group: [Renzo Lam](https://research.reading.ac.uk/meteorology/people/pak-yin-renzo-lam/) is working on historical space weather on a project sponsored by EDF Energy.
+* Feb 2025: I have joined the [Space Environment Impacts Expert Group (SEIEG)](https://www.bas.ac.uk/science/science-and-society/space-environment-impact-expert-group/) which provides space weather advice to the UK Met Office and government departments.
+* Jan 2025: We have a RAS Specialist Discussion meeting on [solar dynamos, dynamics and solar cycle 25](https://ras.ac.uk/events-and-meetings/ras-meetings/dynamos-dynamics-and-solar-cycle-cycle-25-maximum).
 * Nov 2024: I did a "Space Weather Unplugged" talk on forecasting for aurora, which can be viewed [here](https://www.youtube.com/watch?v=8YAFMgLAsJw). 
 * May 2024: The mid-May G5 geomagnetic storm was a bit exciting, wasn't it? A few highlights: [CCN](https://twitter.com/kimbrunhuber/status/1789233802931257640), [Sky News](https://news.sky.com/story/northern-lights-visible-across-large-swathes-of-england-and-wales-as-severe-solar-storm-hits-13132757#:~:text=The%20impressive%20Aurora%20Borealis%2C%20usually,and%2C%20unusually%2C%20southern%20England.), [BBC News](https://mms.tveyes.com/Transcript.asp?StationID=800&DateTime=5%2F11%2F2024+10%3A38%3A50+AM&u=286111&e=true&t=False&aln=), [BBC South](https://mms.tveyes.com/Transcript.asp?StationID=6225&DateTime=5%2F11%2F2024+5%3A29%3A51+PM&u=286111&e=true&t=False&aln=), [LBC](https://mms.tveyes.com/Transcript.asp?StationID=11505&DateTime=5%2F10%2F2024+7%3A45%3A55+PM&u=286111&e=true&t=False&aln=), [France24](https://www.france24.com/en/live-news/20240510-solar-storm-could-bring-auroras-power-and-telecoms-disruptions), [CGTN](https://www.youtube.com/watch?v=lVZwjR9pdGk), [Washington Post](https://www.washingtonpost.com/weather/2024/05/14/northern-lights-aurora-next-extreme/), [Science](https://www.science.org/content/article/extreme-solar-storm-generated-auroras-and-surprise).
 * Apr 2024: Last one for a while: Congrats to Harriet Turner for passing her PhD viva. And thanks to Manuela Temmer of University of Graz for acting as external examiner.
-* Dec 2023: Congratulations to Anna Frost for passing her PhD viva. And thanks to Dr Robert Forsyth of Imperial College for acting as external examiner.
-* Sept 2023: Big congratulations to Lauren James for passing her PhD viva. And thanks to Dr Huw Morgan of Aberystwyth University for acting as external examiner.
-* July 2023: We received performed a survey of expert opinion on the risks and hazards of extreme space weather. Results are available [here](https://www.apollosurveys.org/space-weather/), with a journal article to follow.
-* June 2023: Our WSA-HUXt solar wind and CME forecasting scheme has been fully automated. A regularly updated forecast can be found [here](https://research.reading.ac.uk/met-spate/huxt-forecast/).
-* Mar 2023: [Ars Technica](https://arstechnica.com/science/2023/03/all-the-ways-the-most-common-bit-of-climate-misinformation-is-wrong/) covered some of our work explaining how the Sun can't be the primary driver of climate change.
 
 Old news is archived [here](/_pages/oldnews.html)
 
