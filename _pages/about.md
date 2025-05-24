@@ -30,8 +30,9 @@ Old news is archived [here](/_pages/oldnews.html)
 
 ## Externally funded research projects
 
+* Current: Were solar cycles fundamentally different in the past? (STFC funded)
 * Current: Why have space-weather forecasts not improved for more than a decade? (NERC funded)
-* Current: What determines the open solar magnetic flux? (STFC funded)
+* Finished: What determines the open solar magnetic flux? (STFC funded)
 * Finished: Solar wind forecasting from L5 (ESA funded)
 * Finished: Space Weather Empirical Ensemble Package (STFC SWIMMR)
 * Finished: Creation/destruction of heliospheric magnetic flux (STFC funded)
