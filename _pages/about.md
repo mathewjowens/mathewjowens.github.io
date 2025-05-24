@@ -44,7 +44,7 @@ Old news is archived [here](/_pages/oldnews.html)
 
 ## Current postdoctoral researchers & graduate students
 
-* Renzo Lam](https://research.reading.ac.uk/meteorology/people/pak-yin-renzo-lam/). Historical space weather. Co-supervised by Dr Joe Eggington of EDF Energy.
+* [Renzo Lam](https://research.reading.ac.uk/meteorology/people/pak-yin-renzo-lam/). Historical space weather. Co-supervised by Dr Joe Eggington of EDF Energy.
 * [Dechen Gyeltshen](https://research.reading.ac.uk/meteorology/people/dechen-gyeltshen/). Coronal mass ejection dynamics between the Sun and the Earth.
 * [Nathaniel Edward-Inatimi](https://research.reading.ac.uk/meteorology/people/nathaniel-edward-inatimi/). Creating smarter ensembles for probabilistic solar wind forecasting. Met Office CASE award with Dr Mike Marsh and Dr Siegfried Gonzi.
 * [Sarah Watson](https://research.reading.ac.uk/meteorology/people/sarah-watson/). Solar Wind Interactions with Planets and Minor Planetary Bodies. Co-supervised with [Prof Chris Scott](https://research.reading.ac.uk/meteorology/people/christopher-scott-formerly-davis/).
