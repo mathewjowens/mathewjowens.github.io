@@ -17,7 +17,7 @@ My primary research interests are:
  * Reconstructions of long-term solar variability 
  
 ## Recent news
-
+* Sep 2025: We welcome [Chitradeep Saha](https://https://deephysics1729.github.io/) to the group. He's working on long-term solar reconstructions.
 * May 2025: Mike Dee, Margo Kuitems, Ben Pope and I are hosting a Royal Society Theo Murhpy meeting on Radiocarbon and Cosmic Radiation Events in Edinburgh. Details [here](https://royalsociety.org/science-events-and-lectures/2025/05/radiocarbon/).
 * May 2025: I have a [3-year postdoc position](https://jobs.reading.ac.uk/Job/JobDetail?JobId=24362) available for an STFC project on reconstructing solar activity. Closing date is 4th June.
 * Mar 2025: We welcome a new PhD student to the group: [Renzo Lam](https://research.reading.ac.uk/meteorology/people/pak-yin-renzo-lam/) is working on historical space weather on a project sponsored by EDF Energy.
