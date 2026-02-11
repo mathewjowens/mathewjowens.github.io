@@ -17,7 +17,7 @@ My primary research interests are:
  * Reconstructions of long-term solar variability 
  
 ## Recent news
-* Jan 2026: I'm dead chuffed to be awarded the [2026 Royal Astronomical Society "Chapman Medal"](https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed) for "nvestigations of outstanding merit in the science of the Sun, space and planetary environments or solar-terrestrial physics"
+* Jan 2026: I'm dead chuffed to be awarded the [2026 Royal Astronomical Society "Chapman Medal"](https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed) for "investigations of outstanding merit in the science of the Sun, space and planetary environments or solar-terrestrial physics"
 * Nov 2025: Welcome back to [Lauren James](https://research.reading.ac.uk/meteorology/people/lauren-james/) who will be working on validating our space weather forecasts for the UK Met Office.
 * Sep 2025: We welcome [Chitradeep Saha](https://deephysics1729.github.io/) to the group. He's working on long-term solar reconstructions.
 * May 2025: Mike Dee, Margo Kuitems, Ben Pope and I are hosting a Royal Society Theo Murhpy meeting on Radiocarbon and Cosmic Radiation Events in Edinburgh. Details [here](https://royalsociety.org/science-events-and-lectures/2025/05/radiocarbon/).
