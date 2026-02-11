@@ -17,20 +17,20 @@ My primary research interests are:
  * Reconstructions of long-term solar variability 
  
 ## Recent news
+* Jan 2026: I'm dead chuffed to be awarded the [2026 Royal Astronomical Society "Chapman Medal"][https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed] for "nvestigations of outstanding merit in the science of the Sun, space and planetary environments or solar-terrestrial physics"
+* Nov 2025: Welcome back to [Lauren James][https://research.reading.ac.uk/meteorology/people/lauren-james/] who will be working on validating our space weather forecasts for the UK Met Office.
 * Sep 2025: We welcome [Chitradeep Saha](https://deephysics1729.github.io/) to the group. He's working on long-term solar reconstructions.
 * May 2025: Mike Dee, Margo Kuitems, Ben Pope and I are hosting a Royal Society Theo Murhpy meeting on Radiocarbon and Cosmic Radiation Events in Edinburgh. Details [here](https://royalsociety.org/science-events-and-lectures/2025/05/radiocarbon/).
 * May 2025: I have a [3-year postdoc position](https://jobs.reading.ac.uk/Job/JobDetail?JobId=24362) available for an STFC project on reconstructing solar activity. Closing date is 4th June.
 * Mar 2025: We welcome a new PhD student to the group: [Renzo Lam](https://research.reading.ac.uk/meteorology/people/pak-yin-renzo-lam/) is working on historical space weather on a project sponsored by EDF Energy.
 * Feb 2025: I have joined the [Space Environment Impacts Expert Group (SEIEG)](https://www.bas.ac.uk/science/science-and-society/space-environment-impact-expert-group/) which provides space weather advice to the UK Met Office and government departments.
 * Jan 2025: We have a RAS Specialist Discussion meeting on [solar dynamos, dynamics and solar cycle 25](https://ras.ac.uk/events-and-meetings/ras-meetings/dynamos-dynamics-and-solar-cycle-cycle-25-maximum).
-* Nov 2024: I did a "Space Weather Unplugged" talk on forecasting for aurora, which can be viewed [here](https://www.youtube.com/watch?v=8YAFMgLAsJw). 
-* May 2024: The mid-May G5 geomagnetic storm was a bit exciting, wasn't it? A few highlights: [CCN](https://twitter.com/kimbrunhuber/status/1789233802931257640), [Sky News](https://news.sky.com/story/northern-lights-visible-across-large-swathes-of-england-and-wales-as-severe-solar-storm-hits-13132757#:~:text=The%20impressive%20Aurora%20Borealis%2C%20usually,and%2C%20unusually%2C%20southern%20England.), [BBC News](https://mms.tveyes.com/Transcript.asp?StationID=800&DateTime=5%2F11%2F2024+10%3A38%3A50+AM&u=286111&e=true&t=False&aln=), [BBC South](https://mms.tveyes.com/Transcript.asp?StationID=6225&DateTime=5%2F11%2F2024+5%3A29%3A51+PM&u=286111&e=true&t=False&aln=), [LBC](https://mms.tveyes.com/Transcript.asp?StationID=11505&DateTime=5%2F10%2F2024+7%3A45%3A55+PM&u=286111&e=true&t=False&aln=), [France24](https://www.france24.com/en/live-news/20240510-solar-storm-could-bring-auroras-power-and-telecoms-disruptions), [CGTN](https://www.youtube.com/watch?v=lVZwjR9pdGk), [Washington Post](https://www.washingtonpost.com/weather/2024/05/14/northern-lights-aurora-next-extreme/), [Science](https://www.science.org/content/article/extreme-solar-storm-generated-auroras-and-surprise).
-* Apr 2024: Last one for a while: Congrats to Harriet Turner for passing her PhD viva. And thanks to Manuela Temmer of University of Graz for acting as external examiner.
 
 Old news is archived [here](/_pages/oldnews.html)
 
 ## Externally funded research projects
 
+* Current: Validation of HUXt forecasts {UKMO funded}
 * Current: Were solar cycles fundamentally different in the past? (STFC funded)
 * Current: Why have space-weather forecasts not improved for more than a decade? (NERC funded)
 * Finished: What determines the open solar magnetic flux? (STFC funded)
