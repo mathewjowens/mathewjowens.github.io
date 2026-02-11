@@ -30,7 +30,7 @@ Old news is archived [here](/_pages/oldnews.html)
 
 ## Externally funded research projects
 
-* Current: Validation of HUXt forecasts {UKMO funded}
+* Current: Validation of HUXt forecasts (UKMO funded)
 * Current: Were solar cycles fundamentally different in the past? (STFC funded)
 * Current: Why have space-weather forecasts not improved for more than a decade? (NERC funded)
 * Finished: What determines the open solar magnetic flux? (STFC funded)
