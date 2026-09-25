@@ -17,6 +17,8 @@ My primary research interests are:
  * Reconstructions of long-term solar variability 
  
 ## Recent news
+* Sep 2026: Welcome to new PhD students, Natasha Sullivan and Harry Rumer, who will be working on the solar wind in the outer heliosphere and its effect on the planets.
+* Jun 2026: We had a fantastic time at the [Gap Festival](https://www.thegapfestival.org/), showing people sunspots through the solar telescope and even with the naked eye (with special googles, obviously).
 * Jan 2026: I'm dead chuffed to be awarded the [2026 Royal Astronomical Society "Chapman Medal"](https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed) for "investigations of outstanding merit in the science of the Sun, space and planetary environments or solar-terrestrial physics"
 * Nov 2025: Welcome back to [Lauren James](https://research.reading.ac.uk/meteorology/people/lauren-james/) who will be working on validating our space weather forecasts for the UK Met Office.
 * Sep 2025: We welcome [Chitradeep Saha](https://deephysics1729.github.io/) to the group. He's working on long-term solar reconstructions.
